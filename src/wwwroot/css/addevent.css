@@ -1,0 +1,170 @@
+﻿.addeventatc {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  z-index: 999998;
+  background: #512BD4;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #fff !important;
+  margin-top: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+
+  .addeventatc:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2B0B98;
+  }
+
+  .addeventatc:active {
+    top: 1px;
+  }
+
+  .addeventatc .arrow {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -5px;
+    background: url('/Img/icons/AddEvent/icon-arrow-t1.png') no-repeat;
+  }
+
+.addeventatc-selected {
+  background-color: #05a3ae;
+}
+
+.addeventatc .start,
+.addeventatc .end,
+.addeventatc .timezone,
+.addeventatc .title,
+.addeventatc .description,
+.addeventatc .location,
+.addeventatc .organizer,
+.addeventatc .organizer_email,
+.addeventatc .facebook_event,
+.addeventatc .all_day_event,
+.addeventatc .date_format,
+.addeventatc .alarm_reminder,
+.addeventatc .recurring,
+.addeventatc .attendees,
+.addeventatc .calname,
+.addeventatc .uid,
+.addeventatc .status,
+.addeventatc .method,
+.addeventatc .client {
+  display: none !important;
+}
+/* The drop down */
+.addeventatc_dropdown {
+  width: 215px;
+  position: absolute;
+  z-index: 999999;
+  padding: 6px 0px 0px 0px;
+  background: #fff;
+  text-align: left;
+  display: none;
+  margin-top: 2px;
+  margin-left: -1px;
+  border-top: 1px solid #c8c8c8;
+  border-right: 1px solid #bebebe;
+  border-bottom: 1px solid #a8a8a8;
+  border-left: 1px solid #bebebe;
+  -webkit-box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+  .addeventatc_dropdown span {
+    display: block;
+    line-height: 100%;
+    background: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    padding: 9px 10px 9px 40px;
+  }
+
+    .addeventatc_dropdown span:hover {
+      background-color: #f4f4f4;
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+  .addeventatc_dropdown em {
+    color: #999 !important;
+    font-size: 12px !important;
+  }
+
+  .addeventatc_dropdown .frs {
+    background: #fff;
+    color: #cacaca !important;
+    cursor: pointer;
+    font-size: 9px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 110% !important;
+    padding-left: 10px;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    text-decoration: none;
+    top: 5px;
+    z-index: 101;
+  }
+
+    .addeventatc_dropdown .frs:hover {
+      color: #999 !important;
+    }
+
+  .addeventatc_dropdown .ateappleical {
+    background: url('/Img/icons/AddEvent/icon-apple-t1.svg') 13px 50% no-repeat;
+    background-size: 14px auto;
+  }
+
+  .addeventatc_dropdown .ategoogle {
+    background: url('/Img/icons/AddEvent/icon-google-t1.svg') 13px 50% no-repeat;
+    background-size: 16px auto;
+  }
+
+  .addeventatc_dropdown .ateoutlook {
+    background: url('/Img/icons/AddEvent/icon-outlook-t1.svg') 12px 50% no-repeat;
+    background-size: 16px auto;
+  }
+
+  .addeventatc_dropdown .ateoutlookcom {
+    background: url('/Img/icons/AddEvent/icon-outlook-t1.svg') 12px 50% no-repeat;
+    background-size: 16px auto;
+  }
+
+  .addeventatc_dropdown .ateyahoo {
+    background: url('/Img/icons/AddEvent/icon-yahoo-t1.svg') 12px 50% no-repeat;
+    background-size: 16px auto;
+  }
+
+  .addeventatc_dropdown .atefacebook {
+    background: url('/Img/icons/AddEvent/icon-facebook-t1.svg') 13px 50% no-repeat;
+    background-size: 14px auto;
+  }
+
+  .addeventatc_dropdown .copyx {
+    height: 21px;
+    display: block;
+    position: relative;
+    cursor: default;
+  }
+
+  .addeventatc_dropdown .brx {
+    height: 1px;
+    overflow: hidden;
+    background: #e0e0e0;
+    position: absolute;
+    z-index: 100;
+    left: 10px;
+    right: 10px;
+    top: 9px;
+  }

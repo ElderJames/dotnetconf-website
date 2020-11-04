@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>DotNetConf.Server</AssemblyName>
+    <RootNamespace>DotNetConf.Server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0-rc.2.20475.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\web.csproj" />
+  </ItemGroup>
+
+
+</Project>
