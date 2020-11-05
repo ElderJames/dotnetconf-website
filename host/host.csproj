@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <TrimmerRootAssembly Include="System.Net.Security" />
+    <TrimmerRootAssembly Include="System.Security" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0-rc.2.20475.17" />
   </ItemGroup>
 

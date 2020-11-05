@@ -15,14 +15,13 @@
     <link href="css/addevent.css" rel="stylesheet" />
     <link href="DotNetConf.Web.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="img/icons/favicon.png" />
     <link type="image/png" rel="shortcut icon" href="img/icons/favicon.png">
 </head>
 
 <body>
-    <app>
-        <component type="typeof(App)" render-mode="ServerPrerendered" />
-    </app>
+
+    <component type="typeof(App)" render-mode="WebAssemblyPrerendered" />
 
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
