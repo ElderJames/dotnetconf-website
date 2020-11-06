@@ -13,23 +13,68 @@
             <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/agenda">议程</a>
+                        <NavLink class="nav-link text-dark" href="/agenda">议程</NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/speakers">讲师</a>
-                    </li>
-                    @*<li class="nav-item">
-                        <a class="nav-link text-dark" href="/local-events">Local Events</a>
+                        <NavLink class="nav-link text-dark" href="/speakers">讲师</NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/swag">Swag</a>
-                    </li>*@
+                        <NavLink class="nav-link text-dark" href="/local-events">指南</NavLink>
+                    </li>
+                    <li class="nav-item">
+                        <NavLink class="nav-link text-dark" href="/swag">周边</NavLink>
+                    </li>
+                    <li class="nav-item">
+                        <NavLink class="nav-link text-dark" href="/swag">行为准则</NavLink>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
+
 @Body
+
+<div class="container">
+    <hr>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h5>
+                    <b><a href="http://eepurl.com/gvEhgX" target="_blank">Subscribe to notifications</a> to keep up with .NET Conf news!</b>
+                </h5>
+            </div>
+            <div class="text-center">
+                <h5>
+                    Join the conversation <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank">#dotNETConf</a>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h2>Our sponsors</h2>
+
+                <a href="https://dotnetfoundation.org/" target="_blank"><img class="img-fluid sponsor" src="/img/sponsors/dotnetfoundation_v4.png" alt=".NET Foundation" width="100"></a>
+                <a href="https://www.microsoft.com/" target="_blank"><img class="img-fluid sponsor" src="/img/sponsors/Microsoft-logo_rgb_c-gray.png" alt="Microsoft" width="200"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h3 class="bottom">.NET</h3>
+                <h4>your platform for building anything</h4>
+                <h4>
+                    <a href="https://dot.net" target="_blank">www.dot.net</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -37,6 +82,9 @@
                 © 2020 <a href="https://dotnetfoundation.org" target="_blank">.NET Foundation</a>.
                 <a href="https://dotnetfoundation.org/about/code-of-conduct" target="_blank">Code of Conduct</a> |
                 <a href="https://dotnetfoundation.org/about/privacy-policy" target="_blank">Privacy Policy</a>
+            </div>
+            <div class="col-auto">
+                This website is made with Blazor and ❤
             </div>
         </div>
     </div>
