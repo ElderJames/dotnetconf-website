@@ -7,7 +7,7 @@ using System.Timers;
 
 namespace DotNetConf.Web.Pages
 {
-    public partial class Index : ComponentBase
+    public partial class Index
     {
         private TimeSpan countDown;
         private static readonly Timer timer = new Timer();
@@ -25,7 +25,7 @@ namespace DotNetConf.Web.Pages
 
         private void Refresh(object sender = default, ElapsedEventArgs e = default)
         {
-            countDown = new DateTime(2020, 12, 19) - DateTime.Now;
+            countDown = new DateTime(2020, 12, 19, 9, 30, 0, DateTimeKind.Local) - DateTime.Now;
             InvokeAsync(StateHasChanged);
         }
     }
