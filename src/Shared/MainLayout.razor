@@ -37,28 +37,30 @@
 
 <div class="container">
     <hr>
-    <div class="row">
-        <div class="col">
-            <div class="text-center">
-                <h5>
-                    <b><a href="http://eepurl.com/gvEhgX" target="_blank">Subscribe to notifications</a> to keep up with .NET Conf news!</b>
-                </h5>
+    @*<div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <h5>
+                        <b><a href="http://eepurl.com/gvEhgX" target="_blank">Subscribe to notifications</a> to keep up with .NET Conf news!</b>
+                    </h5>
+                </div>
+                <div class="text-center">
+                    <h5>
+                        Join the conversation <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank">#dotNETConf</a>
+                    </h5>
+                </div>
             </div>
-            <div class="text-center">
-                <h5>
-                    Join the conversation <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank">#dotNETConf</a>
-                </h5>
-            </div>
-        </div>
-    </div>
+        </div>*@
     <div class="row">
         <div class="col">
             <div class="text-center">
                 <h2>Our sponsors</h2>
-
-                <a href="https://dotnetfoundation.org/" target="_blank"><img class="img-fluid sponsor" src="/img/sponsors/dotnetfoundation_v4.png" alt=".NET Foundation" width="100"></a>
-                <a href="https://www.microsoft.com/" target="_blank"><img class="img-fluid sponsor" src="/img/sponsors/Microsoft-logo_rgb_c-gray.png" alt="Microsoft" width="200"></a>
-
+                @foreach (var sponsor in Config.Sponsors ?? Array.Empty<Sponsor>())
+                {
+                    <a href="@sponsor.Url" target="_blank">
+                        <img class="img-fluid sponsor" src="@sponsor.Logo" alt="@sponsor.Name" width="@sponsor.Width">
+                    </a>
+                }
             </div>
         </div>
     </div>

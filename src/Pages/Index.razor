@@ -5,49 +5,53 @@
         <div class="row flex-column-reverse flex-md-row">
             <div class="col-md-6 text-md-left text-center">
                 <div class="box h-100 d-flex justify-content-center flex-column">
-                    <h1>.NET Conf 2020</h1>
-                    <h2 class="hero">12 月 19 - 20 日 苏州</h2>
+                    <h1>@Config.Conf?.Name</h1>
+                    <h2 class="hero">@Config.Conf?.Date @Config.Conf?.City</h2>
+                    @if (countDown != default)
+                    {
 
-                    <div class="row">
-                        <div class="col">
-                            <div class="countdown">
-                                <div id="counter">
-                                    <div class="wrapper-span">
-                                        <span id="days" class="number">@countDown.Days</span>
-                                        <span class="sub-span">日</span>
-                                    </div>
-                                    <div class="wrapper-span">
-                                        <span id="hours" class="number">@countDown.Hours</span>
-                                        <span class="sub-span">时</span>
-                                    </div>
-                                    <div class="wrapper-span">
-                                        <span id="minutes" class="number">@countDown.Minutes</span>
-                                        <span class="sub-span">分</span>
-                                    </div>
-                                    <div class="wrapper-span">
-                                        <span id="minutes" class="number">@countDown.Seconds</span>
-                                        <span class="sub-span">秒</span>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="countdown">
+                                    <div id="counter">
+                                        <div class="wrapper-span">
+                                            <span id="days" class="number">@countDown.Days</span>
+                                            <span class="sub-span">日</span>
+                                        </div>
+                                        <div class="wrapper-span">
+                                            <span id="hours" class="number">@countDown.Hours</span>
+                                            <span class="sub-span">时</span>
+                                        </div>
+                                        <div class="wrapper-span">
+                                            <span id="minutes" class="number">@countDown.Minutes</span>
+                                            <span class="sub-span">分</span>
+                                        </div>
+                                        <div class="wrapper-span">
+                                            <span id="minutes" class="number">@countDown.Seconds</span>
+                                            <span class="sub-span">秒</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
-                                Save the Date!
-                                <span class="start atc_node notranslate">11/10/2020 08:00 AM</span>
-                                <span class="end atc_node notranslate">11/12/2020 5:00 PM</span>
-                                <span class="timezone atc_node notranslate">America/Los_Angeles</span>
-                                <span class="title atc_node notranslate">.NET Conf 2020</span>
-                                <span class="description atc_node notranslate">Tune in for .NET Conf 2020! https://www.dotnetconf.net </span>
-                                <span class="location atc_node notranslate">www.dotnetconf.net</span>
-                            </div>
-                            <a href="https://www.facebook.com/events/809642546438816/" target="_blank"><img class="img-fluid" src="/img/Facebook.svg" alt="Facebook event"></a>
-                            <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank"><img class="img-fluid" src="/img/Twitter.svg" alt="Join the conversation on Twitter"></a>
+                    }
+                    @*<div class="row">
+                            <div class="col">
+                                <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
+                                    Save the Date!
+                                    <span class="start atc_node notranslate">11/10/2020 08:00 AM</span>
+                                    <span class="end atc_node notranslate">11/12/2020 5:00 PM</span>
+                                    <span class="timezone atc_node notranslate">America/Los_Angeles</span>
+                                    <span class="title atc_node notranslate">.NET Conf 2020</span>
+                                    <span class="description atc_node notranslate">Tune in for .NET Conf 2020! https://www.dotnetconf.net </span>
+                                    <span class="location atc_node notranslate">www.dotnetconf.net</span>
+                                </div>
+                                <a href="https://www.facebook.com/events/809642546438816/" target="_blank"><img class="img-fluid" src="/img/Facebook.svg" alt="Facebook event"></a>
+                                <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank"><img class="img-fluid" src="/img/Twitter.svg" alt="Join the conversation on Twitter"></a>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div>*@
                 </div>
             </div>
             <div class="col-md-6 text-md-left text-center">
@@ -67,18 +71,19 @@
             <div class="row">
                 <div class="col">
                     <div class="text-center">
-                        <h2>.NET 5 launch</h2>
+                        <h2>@Config.Conf?.SummaryTitle</h2>
                     </div>
                     <div class="text-body">
-                        <p>
-                            .NET Conf is a free, three-day, virtual developer event co-organized by the .NET community and Microsoft.
-                            This year .NET 5.0 will launch at .NET Conf 2020! Come celebrate and learn about the new release.
-                            We're also celebrating our 10th anniversary and we're working on a few more surprises. You won't want to miss this one.
-                        </p>
+                        @foreach (var paragraph in Config.Conf?.Description ?? Array.Empty<string>())
+                        {
+                            <p>
+                                @paragraph
+                            </p>
+                        }
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!--<div class="row">
                 <div class="col text-center">
                     <img class="img-fluid" src="/img/conference-at-a-glance.svg" alt="Conference at a glance" width="700">
                 </div>
@@ -127,58 +132,58 @@
             </div>
             <div class="row padded">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <!-- speaker set-->
-                        <div class="carousel-item active">
-                            <div class="container">
-                                <div class="row speakerrow">
-                                    <div class="col-sm speakercolsm">
-                                        <div class="speaker card-3">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
-                                                </div>
-                                                <div class="col speakercol">
-                                                    <h3 class="name">Scott Hanselman</h3>
-                                                    <p>Community Director, .NET</p>
-                                                    <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class="carousel-inner">-->
+            <!-- speaker set-->
+            <!--<div class="carousel-item active">
+                <div class="container">
+                    <div class="row speakerrow">
+                        <div class="col-sm speakercolsm">
+                            <div class="speaker card-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
                                     </div>
-                                    <div class="col-sm speakercolsm">
-                                        <div class="speaker card-3">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
-                                                </div>
-                                                <div class="col speakercol">
-                                                    <h3 class="name">Scott Hanselman</h3>
-                                                    <p>Community Director, .NET</p>
-                                                    <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm speakercolsm">
-                                        <div class="speaker card-3">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
-                                                </div>
-                                                <div class="col speakercol">
-                                                    <h3 class="name">Scott Hanselman</h3>
-                                                    <p>Community Director, .NET</p>
-                                                    <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="col speakercol">
+                                        <h3 class="name">Scott Hanselman</h3>
+                                        <p>Community Director, .NET</p>
+                                        <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- speaker set-->
+                        <div class="col-sm speakercolsm">
+                            <div class="speaker card-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
+                                    </div>
+                                    <div class="col speakercol">
+                                        <h3 class="name">Scott Hanselman</h3>
+                                        <p>Community Director, .NET</p>
+                                        <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm speakercolsm">
+                            <div class="speaker card-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid rounded-circle" src="/img/speakers/profile/scott_hanselman.jpg" width="100">
+                                    </div>
+                                    <div class="col speakercol">
+                                        <h3 class="name">Scott Hanselman</h3>
+                                        <p>Community Director, .NET</p>
+                                        <p><a href="https://twitter.com/shanselman" target="_blank">@@shanselman</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>-->
+            <!-- speaker set-->
+            <!--</div>
                 </div>
             </div>
 
@@ -207,7 +212,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </main>
 </div>

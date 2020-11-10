@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Options;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Timers;
 
@@ -11,6 +10,10 @@ namespace DotNetConf.Web.Pages
     {
         private TimeSpan countDown;
         private static readonly Timer timer = new Timer();
+
+        [Inject] public IOptions<SiteConfigOptions> Options { get; set; }
+
+        private SiteConfigOptions Config => Options.Value;
 
         protected override Task OnInitializedAsync()
         {
@@ -25,8 +28,11 @@ namespace DotNetConf.Web.Pages
 
         private void Refresh(object sender = default, ElapsedEventArgs e = default)
         {
-            countDown = new DateTime(2020, 12, 19, 9, 30, 0, DateTimeKind.Local) - DateTime.Now;
-            InvokeAsync(StateHasChanged);
+            if (Config.Conf != null)
+            {
+                countDown = Config.Conf.Coundown - DateTime.Now;
+                InvokeAsync(StateHasChanged);
+            }
         }
     }
 }
