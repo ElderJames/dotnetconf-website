@@ -54,11 +54,24 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>Our sponsors</h2>
+                <h2>@Config?.Labels?.OurSponsors</h2>
                 @foreach (var sponsor in Config.Sponsors ?? Array.Empty<Sponsor>())
                 {
                     <a href="@sponsor.Url" target="_blank">
                         <img class="img-fluid sponsor" src="@sponsor.Logo" alt="@sponsor.Name" width="@sponsor.Width">
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h2>@Config?.Labels?.OurPartners</h2>
+                @foreach (var partner in Config.Partners ?? Array.Empty<Partner>())
+                {
+                    <a href="@partner.Url" target="_blank">
+                        <img class="img-fluid sponsor" src="@partner.Logo" alt="@partner.Name" width="@partner.Width">
                     </a>
                 }
             </div>

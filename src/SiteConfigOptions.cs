@@ -16,7 +16,6 @@ namespace DotNetConf.Web
         public Schedule[] Schedule { get; set; }
         public Sponsor[] Sponsors { get; set; }
         public Partner[] Partners { get; set; }
-
     }
 
     public class Conf
@@ -57,6 +56,9 @@ namespace DotNetConf.Web
         public string Sponsors { get; set; }
         public string Partners { get; set; }
         public string Contact { get; set; }
+        public string OurSponsors { get; set; }
+        public string OurPartners { get; set; }
+        public string Communities { get; set; }
     }
 
     public class Schedule
@@ -89,7 +91,7 @@ namespace DotNetConf.Web
         public string Name { get; set; }
         public string Logo { get; set; }
         public string Url { get; set; }
-        public int Width { get; set; }
+        public int Width { get; set; } = 200;
     }
 
     public class Partner
@@ -97,6 +99,6 @@ namespace DotNetConf.Web
         public string Name { get; set; }
         public string Logo { get; set; }
         public string Url { get; set; }
+        public int Width { get; set; } = 200;
     }
-
 }
