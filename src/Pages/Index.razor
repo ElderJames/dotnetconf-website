@@ -12,7 +12,7 @@
             <div class="col-md-12 text-md-center text-center">
                 <div class="box h-100 d-flex justify-content-center flex-column">
                     @*<h1>@Config.Conf?.Name</h1>
-                    <h2 class="hero">@Config.Conf?.Date @Config.Conf?.City</h2>*@
+                        <h2 class="hero">@Config.Conf?.Date @Config.Conf?.City</h2>*@
                     @if (countDown != default)
                     {
                         <div class="row">
@@ -41,31 +41,32 @@
                         </div>
                     }
                     <div class="row">
-                            <div class="col">
+                        <div class="col">
+                            <a href="@Config?.CallToAction?.Link" target="_blank">
                                 <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
-                                    @Config?.CallToAction?.Text 
+                                    @Config?.CallToAction?.Text
                                     @*<span class="start atc_node notranslate">11/10/2020 08:00 AM</span>
-                                    <span class="end atc_node notranslate">11/12/2020 5:00 PM</span>
-                                    <span class="timezone atc_node notranslate">America/Los_Angeles</span>
-                                    <span class="title atc_node notranslate">.NET Conf 2020</span>
-                                    <span class="description atc_node notranslate">Tune in for .NET Conf 2020! https://www.dotnetconf.net </span>
-                                    <span class="location atc_node notranslate">www.dotnetconf.net</span>*@
+                                        <span class="end atc_node notranslate">11/12/2020 5:00 PM</span>
+                                        <span class="timezone atc_node notranslate">America/Los_Angeles</span>
+                                        <span class="title atc_node notranslate">.NET Conf 2020</span>
+                                        <span class="description atc_node notranslate">Tune in for .NET Conf 2020! https://www.dotnetconf.net </span>
+                                        <span class="location atc_node notranslate">www.dotnetconf.net</span>*@
                                 </div>
                                 @*<a href="https://www.facebook.com/events/809642546438816/" target="_blank"><img class="img-fluid" src="/img/Facebook.svg" alt="Facebook event"></a>
-                                <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank"><img class="img-fluid" src="/img/Twitter.svg" alt="Join the conversation on Twitter"></a>*@
-
-                            </div>
+                                    <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank"><img class="img-fluid" src="/img/Twitter.svg" alt="Join the conversation on Twitter"></a>*@
+                            </a>
                         </div>
+                    </div>
                 </div>
             </div>
             @*<div class="col-md-6 text-md-left text-center">
-                <div class="box h-100 d-flex justify-content-center flex-column">
-                    <picture>
-                        <source media="(min-width: 768px)" srcset="/img/banner.jpg">
-                        <img class="img-fluid" src="/img/banner.jpg" alt="hero">
-                    </picture>
-                </div>
-            </div>*@
+                    <div class="box h-100 d-flex justify-content-center flex-column">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="/img/banner.jpg">
+                            <img class="img-fluid" src="/img/banner.jpg" alt="hero">
+                        </picture>
+                    </div>
+                </div>*@
         </div>
     </div>
 
