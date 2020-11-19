@@ -16,6 +16,7 @@ namespace DotNetConf.Web
         public Schedule[] Schedule { get; set; }
         public Sponsor[] Sponsors { get; set; }
         public Partner[] Partners { get; set; }
+        public Community[] Communities { get; set; }
     }
 
     public class Conf
@@ -95,6 +96,14 @@ namespace DotNetConf.Web
     }
 
     public class Partner
+    {
+        public string Name { get; set; }
+        public string Logo { get; set; }
+        public string Url { get; set; }
+        public int Width { get; set; } = 200;
+    }
+
+    public class Community
     {
         public string Name { get; set; }
         public string Logo { get; set; }

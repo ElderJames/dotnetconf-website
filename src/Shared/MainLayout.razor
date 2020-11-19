@@ -57,7 +57,7 @@
                 <h2>@Config?.Labels?.OurSponsors</h2>
                 @foreach (var sponsor in Config.Sponsors ?? Array.Empty<Sponsor>())
                 {
-                    <a href="@sponsor.Url" target="_blank">
+                    <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
                         <img class="img-fluid sponsor" src="@sponsor.Logo" alt="@sponsor.Name" width="@sponsor.Width">
                     </a>
                 }
@@ -70,8 +70,21 @@
                 <h2>@Config?.Labels?.OurPartners</h2>
                 @foreach (var partner in Config.Partners ?? Array.Empty<Partner>())
                 {
-                    <a href="@partner.Url" target="_blank">
+                    <a href="@partner.Url" target="_blank" title="@partner.Name">
                         <img class="img-fluid sponsor" src="@partner.Logo" alt="@partner.Name" width="@partner.Width">
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h2>@Config?.Labels?.Communities</h2>
+                @foreach (var community in Config.Communities ?? Array.Empty<Community>())
+                {
+                    <a href="@community.Url" target="_blank" title="@community.Name">
+                        <img class="img-fluid sponsor" src="@community.Logo" alt="@community.Name" width="@community.Width">
                     </a>
                 }
             </div>
