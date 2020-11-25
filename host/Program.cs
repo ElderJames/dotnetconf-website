@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using System.Globalization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
 namespace DotNetConf.Server
@@ -7,6 +8,8 @@ namespace DotNetConf.Server
     {
         public static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.CurrentCulture;
+
             CreateHostBuilder(args).Build().Run();
         }
 

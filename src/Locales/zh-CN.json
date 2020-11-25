@@ -40,9 +40,9 @@
     "Sponsors": "Sponsors",
     "Partners": "Partners",
     "Contact": "Contact",
-    "OurSponsors": "大会赞助商",
-    "OurPartners": "大会合作企业",
-    "Communities": "大会合作社区"
+    "OurSponsors": "赞助伙伴",
+    "OurPartners": "合作伙伴",
+    "Communities": "支持社区"
   },
   "Schedule": [
     {
@@ -71,12 +71,6 @@
       "Logo": "/img/sponsors/azure-logo.jpg",
       "Url": "https://azure.microsoft.com/",
       "Width": 200
-    },
-    {
-      "Name": ".NET Foundation",
-      "Logo": "/img/sponsors/dotnetfoundation_v4.png",
-      "Url": "https://dotnetfoundation.org/",
-      "Width": 100
     }
   ],
   "Partners": [
@@ -107,6 +101,12 @@
       "Logo": "/img/communities/ant-design-blazor-logo.png",
       "Url": "https://github.com/ant-design-blazor",
       "Width": 200
+    },
+    {
+      "Name": ".NET Foundation",
+      "Logo": "/img/sponsors/dotnetfoundation_v4.png",
+      "Url": "https://dotnetfoundation.org/",
+      "Width": 100
     }
   ]
 }
