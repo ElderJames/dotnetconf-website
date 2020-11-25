@@ -1,0 +1,112 @@
+﻿{
+  "Conf": {
+    "Name": ".NET Conf 2020",
+    "SummaryTitle": "简介",
+    "Description": [
+      "2014年微软组织并成立.NET基金会，微软在成为主要的开源参与者的道路上又前进了一步。2014年以来已经有众多知名公司加入.NET基金会，微软，Google，AWS三大云厂商已经齐聚.NET基金会，在平台项目中，.NET平台上的ARM 架构由三星团队贡献，在.NET Core 3.1上得到了完整支持，.NET 5上面得到进一步的优化，国内的龙芯团队正在开发MIPS架构的支持，即将正式发布.NET Core 3.1 For MIPS。为了将.NET基金会变成一个更加多样化和成员驱动的组织，微软把.NET的发展真正交给社区，为了让OSS真正蓬勃发展。",
+      "从2016年以来，我们的.NET社区通过协作来推动.NET开源项目和社区的发展，在 github/gitee 上活跃着很多中国的.NET 开源开发者组织，例如NCC、盛派开发者、EasyAbp，龙芯.NET等，我们在全国各大城市有.NET 俱乐部定期举办活动，今年由于疫情，更多是线上的直播活动。11月10号成功举办的2020 年.Net Conf，.NET 5已经在大会上正式发布了。2019年我们也在上海成功举办了第一届中国.NET开发者峰会，今年我们将继续在苏州举办第二届.NET社区的中国峰会。"
+    ],
+    "Date": "12 月 19 - 20 日",
+    "Coundown": "2020-12-20T09:00:00+08:00",
+    "Venue": "苏州",
+    "Address": "Boulevard Kukulcan, 30",
+    "City": "苏州",
+    "State": "Quintana"
+  },
+  "CallToAction": {
+    "Text": "立即购票",
+    "Link": "https://www.huodongxing.com/event/3571957681711"
+  },
+  "ForkButton": {
+    "Repository": "https://github.com/ElderJames/dotnetconf-website"
+  },
+  "Site": {
+    "Url": "https://dotnetconfcn.azurewebsites.net/"
+  },
+  "Sections": [
+    "About",
+    "Location",
+    "Schedule",
+    "Speakers",
+    "Sponsors",
+    "Partners",
+    "Contact"
+  ],
+  "Labels": {
+    "About": "About",
+    "Location": "Location",
+    "Speakers": "Speakers",
+    "Schedule": "Schedule",
+    "Sponsors": "Sponsors",
+    "Partners": "Partners",
+    "Contact": "Contact",
+    "OurSponsors": "大会赞助商",
+    "OurPartners": "大会合作企业",
+    "Communities": "大会合作社区"
+  },
+  "Schedule": [
+    {
+      "Name": "Check-in / Breakfast",
+      "Time": "9h00"
+    },
+    {
+      "Name": "Scott Hanselman",
+      "Photo": "/img/speakers/profile/scott_hanselman.jpg",
+      "Bio": "",
+      "Company": "Community Director, .NET",
+      "Link": {
+        "Href": "https://twitter.com/shanselman",
+        "Text": "@shanselman"
+      },
+      "Presentation": {
+        "Title": "Developer Fun with Scott Hanselman",
+        "Description": "Wind down a little from the day's sessions and learn some fun new things.",
+        "Time": "16:00"
+      }
+    }
+  ],
+  "Sponsors": [
+    {
+      "Name": "Microsoft Azure",
+      "Logo": "/img/sponsors/azure-logo.jpg",
+      "Url": "https://azure.microsoft.com/",
+      "Width": 200
+    },
+    {
+      "Name": ".NET Foundation",
+      "Logo": "/img/sponsors/dotnetfoundation_v4.png",
+      "Url": "https://dotnetfoundation.org/",
+      "Width": 100
+    }
+  ],
+  "Partners": [
+    {
+      "Name": "阿铺科技",
+      "Logo": "/img/partners/apu-logo.png",
+      "Url": ""
+    },
+    {
+      "Name": "友浩达",
+      "Logo": "/img/partners/youhaoda-logo.png",
+      "Url": ""
+    },
+    {
+      "Name": "盛派",
+      "Logo": "/img/partners/shengpai-logo.png",
+      "Url": ""
+    },
+    {
+      "Name": "程析智能",
+      "Logo": "/img/partners/cxist-logo.jpg",
+      "Url": ""
+    }
+  ],
+  "Communities": [
+    {
+      "Name": "Ant Design Blazor",
+      "Logo": "/img/communities/ant-design-blazor-logo.png",
+      "Url": "https://github.com/ant-design-blazor",
+      "Width": 200
+    }
+  ]
+}

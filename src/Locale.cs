@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DotNetConf.Web
 {
-    public class SiteConfigOptions
+    public class Locale
     {
         public Conf Conf { get; set; }
         public Calltoaction CallToAction { get; set; }
@@ -64,8 +64,7 @@ namespace DotNetConf.Web
 
     public class Schedule
     {
-        public string name { get; set; }
-        public string time { get; set; }
+        public string Time { get; set; }
         public string Name { get; set; }
         public string Photo { get; set; }
         public string Bio { get; set; }

@@ -1,19 +1,17 @@
 ﻿using Microsoft.AspNetCore.Components;
-using Microsoft.Extensions.Options;
 using System;
 using System.Threading.Tasks;
 using System.Timers;
+using DotNetConf.Web.Services;
 
 namespace DotNetConf.Web.Pages
 {
-    public partial class Index
+    public partial class Index : ComponentBase
     {
         private TimeSpan countDown;
         private static readonly Timer timer = new Timer();
 
-        [Inject] public IOptions<SiteConfigOptions> Options { get; set; }
-
-        private SiteConfigOptions Config => Options.Value;
+        private Locale Config => LocaleService.CurrentLocale;
 
         protected override Task OnInitializedAsync()
         {

@@ -4,13 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DotNetConf.Web.Services;
 
 namespace DotNetConf.Web.Shared
 {
     public partial class MainLayout
     {
-        [Inject] public IOptions<SiteConfigOptions> Options { get; set; }
-
-        private SiteConfigOptions Config => Options.Value;
+        private Locale Config => LocaleService.CurrentLocale;
     }
 }
