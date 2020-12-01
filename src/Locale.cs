@@ -12,11 +12,13 @@ namespace DotNetConf.Web
         public Forkbutton ForkButton { get; set; }
         public Site Site { get; set; }
         public string[] Sections { get; set; }
-        public Labels Labels { get; set; }
+        public Dictionary<string, string> Labels { get; set; }
         public Schedule[] Schedule { get; set; }
         public Sponsor[] Sponsors { get; set; }
         public Partner[] Partners { get; set; }
         public Community[] Communities { get; set; }
+        public Organizer[] Organizers { get; set; }
+        public Speaker[] Speakers { get; set; }
     }
 
     public class Conf
@@ -46,20 +48,6 @@ namespace DotNetConf.Web
     public class Site
     {
         public string Url { get; set; }
-    }
-
-    public class Labels
-    {
-        public string About { get; set; }
-        public string Location { get; set; }
-        public string Speakers { get; set; }
-        public string Schedule { get; set; }
-        public string Sponsors { get; set; }
-        public string Partners { get; set; }
-        public string Contact { get; set; }
-        public string OurSponsors { get; set; }
-        public string OurPartners { get; set; }
-        public string Communities { get; set; }
     }
 
     public class Schedule
@@ -108,5 +96,22 @@ namespace DotNetConf.Web
         public string Logo { get; set; }
         public string Url { get; set; }
         public int Width { get; set; } = 200;
+    }
+
+    public class Organizer
+    {
+        public string Group { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public string Description { get; set; }
+    }
+
+    public class Speaker
+    {
+        public string Name { get; set; }
+        public string DifficultyLevel { get; set; }
+        public string[] Introduction { get; set; }
+        public string Topic { get; set; }
+        public string[] Description { get; set; }
     }
 }

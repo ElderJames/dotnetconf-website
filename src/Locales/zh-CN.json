@@ -130,19 +130,19 @@
     {
       "Group": "ProductGroup",
       "Name": "苏震巍",
-      "Image": "/img/organizors/suzhenwei.jpg",
+      "Image": "/img/organizors/suzhenwei.png",
       "Description": "苏州盛派网络科技有限公司 创始人兼首席架构师"
     },
     {
       "Group": "ProductGroup",
       "Name": "衣明志",
-      "Image": "/img/organizors/yimingzhi.jpg",
+      "Image": "/img/organizors/yimingzhi.png",
       "Description": "烟台易云网络科技有限公司/CTO"
     },
     {
       "Group": "ProductGroup",
       "Name": "刘腾飞",
-      "Image": "/img/organizors/liutengfei.jpg",
+      "Image": "/img/organizors/liutengfei.jpeg",
       "Description": "上海程析智能科技/平台事业部部长"
     },
     {
@@ -166,7 +166,7 @@
     {
       "Group": "OrganizingGroup",
       "Name": "戚亚柱",
-      "Image": "/img/organizors/qiyazhu.jpg",
+      "Image": "/img/organizors/qiyazhu.jpeg",
       "Description": "广州市因赛集团/技术经理"
     },
     {
@@ -224,21 +224,21 @@
         "此技术平台采用微服务、分布式、平台化的理念设计开发。",
         "本议题将从平台技术发展历程、.NET技术栈和技术架构、业务创新成果和案例分享等多个方面，带大家全面了解.NET技术体系下互联网技术平台建设的方方面面",
         "同时为大家分享特来电在分布式高并发、智能监控运维、快速开发交付的一些落地经验。"
+      ]
+    },
+    {
+      "Name": "肖伟宇",
+      "DifficultyLevel": "Advanced",
+      "Introduction": [
+        ".NET领域的微软MVP（2020-2021）",
+        "特来电云平台技术负责人"
       ],
-      {
-        "Name": "肖伟宇",
-        "DifficultyLevel": "Advanced",
-        "Introduction": [
-          ".NET领域的微软MVP（2020-2021）",
-          "特来电云平台技术负责人"
-        ],
-        "Topic": "To B SaaS 微服务架构的灰度实战经验",
-        "Description": [
-          "对于To B SaaS系统，发布变更是系统稳定性的最大挑战之一，在充分测试的基础上，采取手段最大程度降低意外问题的影响范围是非常有必要的，我们采取的手段就是灰度阶梯发布。",
-          "灰度发布意味着同时存在两个版本在线，在庞大的微服务架构集群中，每次需要部署大量的服务，但实际情况是变更的服务通常只是少数几个，基于这个情况，我们实现了按需灰度的能力，最大程度降低了灰度环境构建的成本。",
-          "本次分享将讲解我们在实现过程中遇到的挑战以及详细方案。"
-        ]
-      }
+      "Topic": "To B SaaS 微服务架构的灰度实战经验",
+      "Description": [
+        "对于To B SaaS系统，发布变更是系统稳定性的最大挑战之一，在充分测试的基础上，采取手段最大程度降低意外问题的影响范围是非常有必要的，我们采取的手段就是灰度阶梯发布。",
+        "灰度发布意味着同时存在两个版本在线，在庞大的微服务架构集群中，每次需要部署大量的服务，但实际情况是变更的服务通常只是少数几个，基于这个情况，我们实现了按需灰度的能力，最大程度降低了灰度环境构建的成本。",
+        "本次分享将讲解我们在实现过程中遇到的挑战以及详细方案。"
+      ]
     }
   ]
 }

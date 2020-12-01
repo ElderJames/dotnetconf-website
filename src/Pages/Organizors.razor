@@ -2,77 +2,81 @@
 
 <div class="container">
     <main role="main" class="pb-3">
-        <div class="text-center">
+        @{
+            var groups = this.Organizers.GroupBy(x => x.Group);
+        }
+        @foreach (var group in groups)
+        {
+            <div class="text-center">
+                <h2>@LocaleService.CurrentLocale.Labels[group.Key]</h2>
+            </div>
+            <div class="container">
+                <Row Gutter="(16,16)" Justify="center" Style=" ">
+                    @foreach (var organizor in group)
+                    {
+                        <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
+                            <Card Hoverable Style="margin: auto;max-width:400px;">
+                                <Cover>
+                                    <img alt="@organizor.Name" src="@organizor.Image" height="320" width="320" />
+                                </Cover>
+                                <ChildContent>
+                                    <CardMeta Title="@organizor.Name" Description="@organizor.Description" />
+                                </ChildContent>
+                            </Card>
+                        </AntDesign.Col>
+                    }
+                </Row>
+            </div>
+        }
+        @*<div class="text-center">
             <h2>出品组</h2>
         </div>
         <div class="container">
-            <Row Gutter="16">
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
+            <Row Gutter="16" Justify="center">
+                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
+                    <Card Hoverable Style="margin: auto;max-width:400px;">
+                        <Cover>
+                            <img alt="example" src="/img/organizors/zhangshanyou.jpg" height="320" width="320" />
+                        </Cover>
+                        <ChildContent>
+                            <CardMeta Title="张善友" Description="深圳市友浩达科技有限公司/CTO" />
+                        </ChildContent>
+                    </Card>
+                </AntDesign.Col>
+                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
+                    <Card Hoverable Style="margin: auto;max-width:400px;">
+                        <Cover>
+                            <img alt="example" src="/img/organizors/suzhenwei.png" height="320" width="320" />
+                        </Cover>
+                        <ChildContent>
+                            <CardMeta Title="苏震巍" Description="苏州盛派网络科技有限公司 创始人兼首席架构师" />
+                        </ChildContent>
+                    </Card>
+                </AntDesign.Col>
+                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
+                    <Card Hoverable Style="margin: auto; max-width:400px;">
+                        <Cover>
+                            <img alt="example" src="/img/organizors/yimingzhi.png" height="320" width="320" />
+                        </Cover>
+                        <ChildContent>
+                            <CardMeta Title="衣明志" Description="烟台易云网络科技有限公司/CTO" />
+                        </ChildContent>
+                    </Card>
+                </AntDesign.Col>
             </Row>
-        </div>
-        <div class="text-center">
-            <h2>会务组</h2>
-        </div>
-        <div class="container">
-            <Row Gutter="16">
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-            </Row>
-        </div>
-        <div class="text-center">
-            <h2>网站组</h2>
-        </div>
-        <div class="container">
-            <Row Gutter="16">
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-                <Col Xs="2" Sm="4" Md="6" Lg="8" Xl="10">
-                <Card Hoverable Style="width: 240px" Cover="coverTemplate">
-                    <CardMeta Title="Europe Street beat" Description="www.instagram.com" />
-                </Card>
-                </Col>
-            </Row>
-        </div>
+        </div>*@
     </main>
 </div>
 
-    @code
+@using DotNetConf.Web.Services
+@code
 {
-        private RenderFragment coverTemplate =@<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />;
+    Organizer[] Organizers = LocaleService.CurrentLocale.Organizers;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
 
     }
+}

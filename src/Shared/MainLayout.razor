@@ -57,7 +57,7 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels?.OurSponsors</h2>
+                <h2>@Config?.Labels["OurSponsors"]</h2>
                 @foreach (var sponsor in Config.Sponsors ?? Array.Empty<Sponsor>())
                 {
                     <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
@@ -70,7 +70,7 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels?.OurPartners</h2>
+                <h2>@Config?.Labels["OurPartners"]</h2>
                 @foreach (var partner in Config.Partners ?? Array.Empty<Partner>())
                 {
                     <a href="@partner.Url" target="_blank" title="@partner.Name">
@@ -83,7 +83,7 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels?.Communities</h2>
+                <h2>@Config?.Labels["Communities"]</h2>
                 @foreach (var community in Config.Communities ?? Array.Empty<Community>())
                 {
                     <a href="@community.Url" target="_blank" title="@community.Name">
