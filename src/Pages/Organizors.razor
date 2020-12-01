@@ -1,9 +1,10 @@
 ﻿@page "/organizors"
+@using DotNetConf.Web.Services
 
 <div class="container">
     <main role="main" class="pb-3">
         @{
-            var groups = this.Organizers.GroupBy(x => x.Group);
+            var groups = LocaleService.CurrentLocale.Organizers.GroupBy(x => x.Group);
         }
         @foreach (var group in groups)
         {
@@ -28,55 +29,5 @@
                 </Row>
             </div>
         }
-        @*<div class="text-center">
-            <h2>出品组</h2>
-        </div>
-        <div class="container">
-            <Row Gutter="16" Justify="center">
-                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
-                    <Card Hoverable Style="margin: auto;max-width:400px;">
-                        <Cover>
-                            <img alt="example" src="/img/organizors/zhangshanyou.jpg" height="320" width="320" />
-                        </Cover>
-                        <ChildContent>
-                            <CardMeta Title="张善友" Description="深圳市友浩达科技有限公司/CTO" />
-                        </ChildContent>
-                    </Card>
-                </AntDesign.Col>
-                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
-                    <Card Hoverable Style="margin: auto;max-width:400px;">
-                        <Cover>
-                            <img alt="example" src="/img/organizors/suzhenwei.png" height="320" width="320" />
-                        </Cover>
-                        <ChildContent>
-                            <CardMeta Title="苏震巍" Description="苏州盛派网络科技有限公司 创始人兼首席架构师" />
-                        </ChildContent>
-                    </Card>
-                </AntDesign.Col>
-                <AntDesign.Col Xs="24" Sm="24" Md="12" Lg="8" Xl="8">
-                    <Card Hoverable Style="margin: auto; max-width:400px;">
-                        <Cover>
-                            <img alt="example" src="/img/organizors/yimingzhi.png" height="320" width="320" />
-                        </Cover>
-                        <ChildContent>
-                            <CardMeta Title="衣明志" Description="烟台易云网络科技有限公司/CTO" />
-                        </ChildContent>
-                    </Card>
-                </AntDesign.Col>
-            </Row>
-        </div>*@
     </main>
 </div>
-
-@using DotNetConf.Web.Services
-@code
-{
-    Organizer[] Organizers = LocaleService.CurrentLocale.Organizers;
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-
-
-    }
-}

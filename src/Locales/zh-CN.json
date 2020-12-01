@@ -75,12 +75,30 @@
       "Name": "Microsoft Azure",
       "Logo": "/img/sponsors/azure-logo.jpg",
       "Url": "https://azure.microsoft.com/",
-      "Width": 200
+      "Width": 300
     },
     {
       "Name": "葡萄城",
       "Logo": "/img/sponsors/grapecity.png",
       "Url": "https://www.grapecity.com.cn/",
+      "Width": 200
+    },
+    {
+      "Name": "明源云",
+      "Logo": "/img/sponsors/mingyuanyun.png",
+      "Url": "https://www.mingyuanyun.com/",
+      "Width": 200
+    },
+    {
+      "Name": "朝夕教育",
+      "Logo": "/img/sponsors/zhaoxi.jpg",
+      "Url": "http://www.zhaoxiedu.net/",
+      "Width": 200
+    },
+    {
+      "Name": "泰链智能",
+      "Logo": "/img/sponsors/turbochain.png",
+      "Url": "https://turbochain.cn/",
       "Width": 200
     }
   ],
