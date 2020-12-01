@@ -35,14 +35,19 @@
   "Labels": {
     "About": "About",
     "Location": "Location",
-    "Speakers": "Speakers",
+    "Speakers": "分享嘉宾",
     "Schedule": "Schedule",
     "Sponsors": "Sponsors",
     "Partners": "Partners",
     "Contact": "Contact",
     "OurSponsors": "赞助伙伴",
     "OurPartners": "合作伙伴",
-    "Communities": "支持社区"
+    "Communities": "支持社区",
+    "OrganizerTeam": "组委会",
+    "ProductGroup": "出品组",
+    "OrganizingGroup": "会务组",
+    "WebsiteGroup": "网站组",
+    "DesignGroup": "设计/运营组"
   },
   "Schedule": [
     {
@@ -70,6 +75,12 @@
       "Name": "Microsoft Azure",
       "Logo": "/img/sponsors/azure-logo.jpg",
       "Url": "https://azure.microsoft.com/",
+      "Width": 200
+    },
+    {
+      "Name": "葡萄城",
+      "Logo": "/img/sponsors/grapecity.png",
+      "Url": "https://www.grapecity.com.cn/",
       "Width": 200
     }
   ],
@@ -107,6 +118,127 @@
       "Logo": "/img/sponsors/dotnetfoundation_v4.png",
       "Url": "https://dotnetfoundation.org/",
       "Width": 100
+    }
+  ],
+  "Organizers": [
+    {
+      "Group": "ProductGroup",
+      "Name": "张善友",
+      "Image": "/img/organizors/zhangshanyou.jpg",
+      "Description": "深圳市友浩达科技有限公司/CTO"
+    },
+    {
+      "Group": "ProductGroup",
+      "Name": "苏震巍",
+      "Image": "/img/organizors/suzhenwei.jpg",
+      "Description": "苏州盛派网络科技有限公司 创始人兼首席架构师"
+    },
+    {
+      "Group": "ProductGroup",
+      "Name": "衣明志",
+      "Image": "/img/organizors/yimingzhi.jpg",
+      "Description": "烟台易云网络科技有限公司/CTO"
+    },
+    {
+      "Group": "ProductGroup",
+      "Name": "刘腾飞",
+      "Image": "/img/organizors/liutengfei.jpg",
+      "Description": "上海程析智能科技/平台事业部部长"
+    },
+    {
+      "Group": "ProductGroup",
+      "Name": "陈计节",
+      "Image": "/img/organizors/chenjijie.jpg",
+      "Description": "腾讯科技（深圳）有限公司 高级架构师"
+    },
+    {
+      "Group": "ProductGroup",
+      "Name": "朱永光",
+      "Image": "",
+      "Description": "微软 高级技术顾问"
+    },
+    {
+      "Group": "OrganizingGroup",
+      "Name": "陈作",
+      "Image": "/img/organizors/chenzuo.jpg",
+      "Description": "深圳市阿铺科技/CTO  / 大会会务统筹"
+    },
+    {
+      "Group": "OrganizingGroup",
+      "Name": "戚亚柱",
+      "Image": "/img/organizors/qiyazhu.jpg",
+      "Description": "广州市因赛集团/技术经理"
+    },
+    {
+      "Group": "OrganizingGroup",
+      "Name": "郑和阳",
+      "Image": "/img/organizors/zhengheyang.jpg",
+      "Description": "上海臣辛科技有限公司 / 大会视频直播整理"
+    },
+    {
+      "Group": "WebsiteGroup",
+      "Name": "杨舜杰",
+      "Image": "/img/organizors/jamesyeung.jpg",
+      "Description": "上海程析智能科技 / 架构研发工程师"
+    },
+    {
+      "Group": "WebsiteGroup",
+      "Name": "Rani",
+      "Image": "/img/organizors/rani.png",
+      "Description": "Power Platform 中文社区"
+    },
+    {
+      "Group": "DesignGroup",
+      "Name": "Rachel",
+      "Image": "/img/organizors/rachel.png",
+      "Description": "盛派网络/UI设计"
+    },
+    {
+      "Group": "DesignGroup",
+      "Name": "Jessie",
+      "Image": "/img/organizors/jessie.jpg",
+      "Description": "Power Platform 中文社区"
+    }
+  ],
+  "Speakers": [
+    {
+      "Name": "卢建晖",
+      "DifficultyLevel": "Advanced",
+      "Introduction": [
+        "华南师范大学网络教育学院程序开发总监",
+        "微软技术社区区域总监，微软最有价值专家"
+      ],
+      "Topic": ".NET in Deep Learning",
+      "Description": [ "讲述 ML.NET 和 TensorFlow.NET 的深度学习故事，ML.NET 是微软在 dotnet core 下的原生机器学习解决方案，发展快两年，在整合开发工具和算例有了快速进展，而TensorFlow.NET 是一个基于C#/F# 的深度学习解决方案，两者的融合让.NET 生态有了一个从训练到应用的全平台机器学习方案。本课程通过通俗易懂的方式和.NETer介绍ML.NET 和TensorFlow.NET  从安装到开发，训练，再到实现的一站式体验。" ]
+    },
+    {
+      "Name": "周国庆",
+      "DifficultyLevel": "Advanced",
+      "Introduction": [
+        ".NET领域的微软MVP（2020-2021）",
+        "特来电云平台技术负责人"
+      ],
+      "Topic": "基于 .NET 技术栈的互联网技术平台揭秘",
+      "Description": [
+        "特来电互联网技术平台，是一款高性能的、分布式的、互联网级PaaS平台，整个特来电云平台完全在其之上构建。",
+        "此技术平台采用微服务、分布式、平台化的理念设计开发。",
+        "本议题将从平台技术发展历程、.NET技术栈和技术架构、业务创新成果和案例分享等多个方面，带大家全面了解.NET技术体系下互联网技术平台建设的方方面面",
+        "同时为大家分享特来电在分布式高并发、智能监控运维、快速开发交付的一些落地经验。"
+      ],
+      {
+        "Name": "肖伟宇",
+        "DifficultyLevel": "Advanced",
+        "Introduction": [
+          ".NET领域的微软MVP（2020-2021）",
+          "特来电云平台技术负责人"
+        ],
+        "Topic": "To B SaaS 微服务架构的灰度实战经验",
+        "Description": [
+          "对于To B SaaS系统，发布变更是系统稳定性的最大挑战之一，在充分测试的基础上，采取手段最大程度降低意外问题的影响范围是非常有必要的，我们采取的手段就是灰度阶梯发布。",
+          "灰度发布意味着同时存在两个版本在线，在庞大的微服务架构集群中，每次需要部署大量的服务，但实际情况是变更的服务通常只是少数几个，基于这个情况，我们实现了按需灰度的能力，最大程度降低了灰度环境构建的成本。",
+          "本次分享将讲解我们在实现过程中遇到的挑战以及详细方案。"
+        ]
+      }
     }
   ]
 }
