@@ -1,37 +1,20 @@
 ﻿@inherits LayoutComponentBase
 
-
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="/img/icons/dotnet_60x60.png" alt=".NET Conf" width="40" height="40">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" @onclick="_ => { visible = true; }">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/agenda">议程</NavLink>
-                    </li>
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/organizors ">组委会</NavLink>
-                    </li>
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/speakers">讲师</NavLink>
-                    </li>
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/local-events">指南</NavLink>
-                    </li>
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/swag">周边</NavLink>
-                    </li>
-                    <li class="nav-item">
-                        <NavLink class="nav-link text-dark" href="/swag">行为准则</NavLink>
-                    </li>
-                </ul>
+                <NavMenu MenuMode="MenuMode.Horizontal"></NavMenu>
             </div>
+            <Drawer Visible="@visible" Placement="top" OnClose="_ => {visible = false; }">
+                <NavMenu MenuMode="MenuMode.Vertical"></NavMenu>
+            </Drawer>
         </div>
     </nav>
 </header>
@@ -126,3 +109,9 @@
         </div>
     </div>
 </footer>
+
+@code{
+    bool visible;
+
+
+}
