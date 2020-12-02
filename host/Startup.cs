@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Globalization;
 
 namespace DotNetConf.Server
 {
@@ -41,6 +43,13 @@ namespace DotNetConf.Server
             app.UseHttpsRedirection();
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
+
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("zh-CN"),
+                SupportedCultures = { new CultureInfo("en-US"), new CultureInfo("zh-CN"), },
+                SupportedUICultures = { new CultureInfo("en-US"), new CultureInfo("zh-CN"), },
+            });
 
             app.UseRouting();
 
