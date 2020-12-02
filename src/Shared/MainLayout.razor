@@ -57,11 +57,11 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels["OurSponsors"]</h2>
+                <h2>@LocaleService.CurrentLocale.Labels["OurSponsors"]</h2>
 
-                @foreach (var group in Config.Sponsors.GroupBy(x => x.Level))
+                @foreach (var group in LocaleService.CurrentLocale.Sponsors.GroupBy(x => x.Level))
                 {
-                    <h3>@Config?.Labels[group.Key]</h3>
+                    <h3>@LocaleService.CurrentLocale.Labels[group.Key]</h3>
                     @foreach (var sponsor in group)
                     {
                         <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
@@ -76,8 +76,8 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels["OurPartners"]</h2>
-                @foreach (var partner in Config.Partners ?? Array.Empty<Partner>())
+                <h2>@LocaleService.CurrentLocale.Labels["OurPartners"]</h2>
+                @foreach (var partner in LocaleService.CurrentLocale.Partners ?? Array.Empty<Partner>())
                 {
                     <a href="@partner.Url" target="_blank" title="@partner.Name">
                         <img class="img-fluid sponsor" src="@partner.Logo" alt="@partner.Name" width="@partner.Width">
@@ -89,8 +89,8 @@
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@Config?.Labels["Communities"]</h2>
-                @foreach (var community in Config.Communities ?? Array.Empty<Community>())
+                <h2>@LocaleService.CurrentLocale.Labels["Communities"]</h2>
+                @foreach (var community in LocaleService.CurrentLocale.Communities ?? Array.Empty<Community>())
                 {
                     <a href="@community.Url" target="_blank" title="@community.Name">
                         <img class="img-fluid sponsor" src="@community.Logo" alt="@community.Name" width="@community.Width">
