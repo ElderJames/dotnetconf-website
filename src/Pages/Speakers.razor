@@ -5,24 +5,15 @@
         <div class="row justify-content-between">
             <div class="col-md-6 text-md-left text-center">
                 <div class="box h-100 d-flex justify-content-end flex-column">
-                    <h3>.NET Conf 2020, Nov 10-12</h3>
+                    <h3>.NET Conf 2020, 12月19-20日</h3>
                 </div>
             </div>
             <div class="col-md-6 text-md-right text-center">
                 <div class="row">
                     <div class="col">
                         <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
-                            Save the Date!
-                            <span class="start atc_node notranslate">11/10/2020 08:00 AM</span>
-                            <span class="end atc_node notranslate">11/12/2020 5:00 PM</span>
-                            <span class="timezone atc_node notranslate">America/Los_Angeles</span>
-                            <span class="title atc_node notranslate">.NET Conf 2020</span>
-                            <span class="description atc_node notranslate">Tune in for .NET Conf 2020! https://www.dotnetconf.net </span>
-                            <span class="location atc_node notranslate">www.dotnetconf.net</span>
+                            立即报名！
                         </div>
-                        <a href="https://www.facebook.com/events/809642546438816/" target="_blank"><img class="img-fluid" src="/img/Facebook.svg" alt="Facebook event"></a>
-                        <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank"><img class="img-fluid" src="/img/Twitter.svg" alt="Join the conversation on Twitter"></a>
-
                     </div>
                 </div>
             </div>
@@ -30,108 +21,44 @@
     </div>
 
     <main role="main" class="pb-3">
-
-
         <div class="container">
             <div class="row padded">
                 <div class="col">
                     <div class="text-center">
-                        <h2>Our speakers</h2>
-                        <p>Thank you to all our amazing speakers! Check out <a href="/agenda">the agenda.</a></p>
+                        <h2>演讲者</h2>
+                        <p>感谢我们超棒的演讲者们！ @*Check out <a href="/agenda">the agenda.</a>*@</p>
                     </div>
 
                 </div>
             </div>
-            <div class="row speakerrow">
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-1">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/aaron_powell.png" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Aaron Powell</h3>
-                                <p>Principal Cloud Advocate, Microsoft</p>
-                                <p><a href="https://twitter.com/slace" target="_blank">@@slace</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-2">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/abdullah_hamed.png" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Abdullah Hamed</h3>
-                                <p>Senior Program Manager, Microsoft</p>
-                                <p><a href="https://twitter.com/indiesaudi" target="_blank">@@indiesaudi</a></p>
+            @foreach (var items in LocaleService.CurrentLocale.Speakers.Select((s, i) => new { Value = s, Index = i })
+             .GroupBy(x => x.Index / 100)
+             .Select(grp => grp.Select(x => x.Value).ToArray())
+             .ToArray())
+            {
+                <div class="row speakerrow">
+                    @foreach (var speaker in items)
+                    {
+                        <div class="col-sm speakercolsm">
+                            <div class="speaker card-1">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid rounded-circle" src="@speaker.Image" width="100">
+                                    </div>
+                                    <div class="col speakercol">
+                                        <h3 class="name">@speaker.Name</h3>
+                                        @foreach (var intro in speaker.Introduction)
+                                        {
+                                            <p>@intro</p>
+                                        }
+                                        @*<p><a href="https://twitter.com/slace" target="_blank">@@slace</a></p>*@
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    }
                 </div>
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-3">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/adrian_stevens.png" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Adrian Stevens</h3>
-                                <p>Program Manager, Microsoft</p>
-                                <p><a href="https://twitter.com/adrian_stevens" target="_blank">@@adrian_stevens</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row speakerrow">
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-4">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/alan_yu.jpg" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Alan Yu</h3>
-                                <p>Program Manager, Microsoft</p>
-                                <p><a href="https://twitter.com/alanyusql" target="_blank">@@alanyusql</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-5">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/andrew_nosenko.jpg" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Andrew Nosenko</h3>
-                                <p>Softwar Engineer, Postprintum Pty Ltd</p>
-                                <p><a href="https://twitter.com/noseratio" target="_blank">@@noseratio</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm speakercolsm">
-                    <div class="speaker card-6">
-                        <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid rounded-circle" src="/img/speakers/profile/andy_sterland.jpg" width="100">
-                            </div>
-                            <div class="col speakercol">
-                                <h3 class="name">Andy Sterland</h3>
-                                <p>Lead Program Manager, Visual Studio</p>
-                                <p><a href="https://twitter.com/andysterland" target="_blank">@@andysterland</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
+            }
         </div>
-
     </main>
 </div>

@@ -58,12 +58,18 @@
         <div class="col">
             <div class="text-center">
                 <h2>@Config?.Labels["OurSponsors"]</h2>
-                @foreach (var sponsor in Config.Sponsors ?? Array.Empty<Sponsor>())
+
+                @foreach (var group in Config.Sponsors.GroupBy(x => x.Level))
                 {
-                    <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
-                        <img class="img-fluid sponsor" src="@sponsor.Logo" alt="@sponsor.Name" width="@sponsor.Width">
-                    </a>
+                    <h3>@Config?.Labels[group.Key]</h3>
+                    @foreach (var sponsor in group)
+                    {
+                        <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
+                            <img class="img-fluid sponsor" src="@sponsor.Logo" alt="@sponsor.Name" width="@sponsor.Width">
+                        </a>
+                    }
                 }
+
             </div>
         </div>
     </div>

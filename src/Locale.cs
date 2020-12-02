@@ -77,9 +77,12 @@ namespace DotNetConf.Web
     public class Sponsor
     {
         public string Name { get; set; }
+
+        public string Level { get; set; }
         public string Logo { get; set; }
         public string Url { get; set; }
         public int Width { get; set; } = 200;
+        public string Introduction { get; set; }
     }
 
     public class Partner
@@ -109,6 +112,7 @@ namespace DotNetConf.Web
     public class Speaker
     {
         public string Name { get; set; }
+        public string Image { get; set; }
         public string DifficultyLevel { get; set; }
         public string[] Introduction { get; set; }
         public string Topic { get; set; }
