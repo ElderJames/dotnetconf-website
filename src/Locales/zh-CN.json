@@ -242,17 +242,19 @@
         "微软技术社区区域总监，微软最有价值专家"
       ],
       "Topic": ".NET in Deep Learning",
+      "Time": "待定",
       "Description": [ "讲述 ML.NET 和 TensorFlow.NET 的深度学习故事，ML.NET 是微软在 dotnet core 下的原生机器学习解决方案，发展快两年，在整合开发工具和算例有了快速进展，而TensorFlow.NET 是一个基于C#/F# 的深度学习解决方案，两者的融合让.NET 生态有了一个从训练到应用的全平台机器学习方案。本课程通过通俗易懂的方式和.NETer介绍ML.NET 和TensorFlow.NET  从安装到开发，训练，再到实现的一站式体验。" ]
     },
     {
       "Name": "周国庆",
       "Image": "/img/speakers/profile/zhouguoqing.png",
       "DifficultyLevel": "Advanced",
+      "JobTitle": "特来电云平台技术负责人",
       "Introduction": [
-        ".NET领域的微软MVP（2020-2021）",
-        "特来电云平台技术负责人"
+        ".NET领域的微软MVP（2020-2021）"
       ],
       "Topic": "基于 .NET 技术栈的互联网技术平台揭秘",
+      "Time": "待定",
       "Description": [
         "特来电互联网技术平台，是一款高性能的、分布式的、互联网级PaaS平台，整个特来电云平台完全在其之上构建。",
         "此技术平台采用微服务、分布式、平台化的理念设计开发。",
@@ -264,11 +266,12 @@
       "Name": "肖伟宇",
       "Image": "/img/speakers/profile/xiaoweiyu.png",
       "DifficultyLevel": "Advanced",
+      "JobTitle": ".NET Conf China 2019 主会场讲师 / Fire User Group 常驻讲师",
       "Introduction": [
-        ".NET领域的微软MVP（2020-2021）",
-        "特来电云平台技术负责人"
+        "有超过10年的.NET平台的应用经验，目前负责校宝在线的教培SaaS系统架构工作，在包含系统设计、迭代交付、运维保障等系统交付场景方面积累了丰富的经验。"
       ],
       "Topic": "To B SaaS 微服务架构的灰度实战经验",
+      "Time": "待定",
       "Description": [
         "对于To B SaaS系统，发布变更是系统稳定性的最大挑战之一，在充分测试的基础上，采取手段最大程度降低意外问题的影响范围是非常有必要的，我们采取的手段就是灰度阶梯发布。",
         "灰度发布意味着同时存在两个版本在线，在庞大的微服务架构集群中，每次需要部署大量的服务，但实际情况是变更的服务通常只是少数几个，基于这个情况，我们实现了按需灰度的能力，最大程度降低了灰度环境构建的成本。",

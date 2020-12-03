@@ -112,10 +112,12 @@ namespace DotNetConf.Web
     public class Speaker
     {
         public string Name { get; set; }
+        public string JobTitle { get; set; }
         public string Image { get; set; }
         public string DifficultyLevel { get; set; }
         public string[] Introduction { get; set; }
         public string Topic { get; set; }
+        public string Time { get; set; }
         public string[] Description { get; set; }
     }
 }
