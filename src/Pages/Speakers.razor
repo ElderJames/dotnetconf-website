@@ -11,9 +11,11 @@
             <div class="col-md-6 text-md-right text-center">
                 <div class="row">
                     <div class="col">
-                        <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
-                            立即报名！
-                        </div>
+                        <a href="@LocaleService.CurrentLocale.CallToAction?.Link" target="_blank">
+                            <div title="" class="addeventatc" id="addeventatc1" aria-haspopup="true" aria-expanded="false" tabindex="0" translate="no" data-loaded="true" style="visibility: visible;">
+                                立即报名！
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -32,9 +34,9 @@
                 </div>
             </div>
             @foreach (var items in LocaleService.CurrentLocale.Speakers.Select((s, i) => new { Value = s, Index = i })
-             .GroupBy(x => x.Index / 100)
-             .Select(grp => grp.Select(x => x.Value).ToArray())
-             .ToArray())
+            .GroupBy(x => x.Index / 100)
+            .Select(grp => grp.Select(x => x.Value).ToArray())
+            .ToArray())
             {
                 <div class="row speakerrow">
                     @foreach (var speaker in items)
