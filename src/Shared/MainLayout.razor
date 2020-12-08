@@ -23,28 +23,14 @@
 
 <div class="container">
     <hr>
-    @*<div class="row">
-            <div class="col">
-                <div class="text-center">
-                    <h5>
-                        <b><a href="http://eepurl.com/gvEhgX" target="_blank">Subscribe to notifications</a> to keep up with .NET Conf news!</b>
-                    </h5>
-                </div>
-                <div class="text-center">
-                    <h5>
-                        Join the conversation <a href="https://twitter.com/search?q=%23dotnetconf" target="_blank">#dotNETConf</a>
-                    </h5>
-                </div>
-            </div>
-        </div>*@
+
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@LocaleService.CurrentLocale.Labels["OurSponsors"]</h2>
-
+                @*Sponsors*@
                 @foreach (var group in LocaleService.CurrentLocale.Sponsors.GroupBy(x => x.Level))
                 {
-                    <h3>@LocaleService.CurrentLocale.Labels[group.Key]</h3>
+                    <h3 class="sponsors-title">@LocaleService.CurrentLocale.Labels[group.Key]</h3>
                     @foreach (var sponsor in group)
                     {
                         <a href="@sponsor.Url" target="_blank" title="@sponsor.Name">
@@ -56,10 +42,11 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@LocaleService.CurrentLocale.Labels["OurPartners"]</h2>
+                <h3 class="sponsors-title">@LocaleService.CurrentLocale.Labels["OurPartners"]</h3>
                 @foreach (var partner in LocaleService.CurrentLocale.Partners ?? Array.Empty<Partner>())
                 {
                     <a href="@partner.Url" target="_blank" title="@partner.Name">
@@ -69,10 +56,40 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class="col">
             <div class="text-center">
-                <h2>@LocaleService.CurrentLocale.Labels["Communities"]</h2>
+                <h3 class="sponsors-title">@LocaleService.CurrentLocale.Labels["VenueSupports"]</h3>
+                @foreach (var venueSupport in LocaleService.CurrentLocale.VenueSupports ?? Array.Empty<VenueSupport>())
+                {
+                    <a href="@venueSupport.Url" target="_blank" title="@venueSupport.Name">
+                        <img class="img-fluid sponsor" src="@venueSupport.Logo" alt="@venueSupport.Name" width="@venueSupport.Width">
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h3 class="sponsors-title">@LocaleService.CurrentLocale.Labels["BooksSponsors"]</h3>
+                @foreach (var booksSponsor in LocaleService.CurrentLocale.BooksSponsors ?? Array.Empty<BooksSponsor>())
+                {
+                    <a href="@booksSponsor.Url" target="_blank" title="@booksSponsor.Name">
+                        <img class="img-fluid sponsor" src="@booksSponsor.Logo" alt="@booksSponsor.Name" width="@booksSponsor.Width">
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h3 class="sponsors-title">@LocaleService.CurrentLocale.Labels["Communities"]</h3>
                 @foreach (var community in LocaleService.CurrentLocale.Communities ?? Array.Empty<Community>())
                 {
                     <a href="@community.Url" target="_blank" title="@community.Name">

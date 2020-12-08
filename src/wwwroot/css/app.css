@@ -299,3 +299,12 @@ button {
   padding: 5px 10px 5px 10px;
   border: none;
 }
+
+
+/* sponsors styles
+ ------------------------------------------------*/
+
+ .sponsors-title {
+  color: #666;
+  line-height: 60px;
+}

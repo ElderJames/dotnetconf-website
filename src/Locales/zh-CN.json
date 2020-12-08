@@ -42,6 +42,8 @@
     "Contact": "Contact",
     "OurSponsors": "赞助伙伴",
     "OurPartners": "合作伙伴",
+    "VenueSupports": "场地支持",
+    "BooksSponsors": "图书赞助",
     "Communities": "支持社区",
     "OrganizerTeam": "组委会",
     "ProductGroup": "出品组",
@@ -118,38 +120,108 @@
   ],
   "Partners": [
     {
-      "Name": "阿铺科技",
-      "Logo": "/img/partners/apu-logo.png",
-      "Url": ""
-    },
-    {
-      "Name": "友浩达",
-      "Logo": "/img/partners/youhaoda-logo.png",
-      "Url": ""
-    },
-    {
       "Name": "盛派",
       "Logo": "/img/partners/shengpai-logo.png",
-      "Url": ""
+      "Url": "https://www.senparc.com/"
+    },
+    {
+      "Name": "Reactor",
+      "Logo": "/img/partners/reactor-logo.png",
+      "Url": "#"
     },
     {
       "Name": "程析智能",
       "Logo": "/img/partners/cxist-logo.jpg",
-      "Url": ""
+      "Url": "https://www.cxist.com/"
+    },
+    {
+      "Name": "阿铺科技",
+      "Logo": "/img/partners/apu-logo.png",
+      "Url": "https://www.apukj.cn/"
+    },
+    {
+      "Name": "友浩达",
+      "Logo": "/img/partners/youhaoda-logo.png",
+      "Url": "http://www.weyhd.com/"
+    }
+  ],
+  "VenueSupports": [
+    {
+      "Name": "苏州国际科技园",
+      "Logo": "/img/venue-support/suspark-logo.png",
+      "Url": "http://www.sispark.com.cn/"
+    },
+    {
+      "Name": "苏州人工智能产业创业中心",
+      "Logo": "/img/venue-support/sai-logo.png",
+      "Url": "#"
+    }
+  ],
+  "BooksSponsors": [
+    {
+      "Name": "异步社区",
+      "Logo": "/img/books-sponsors/epubit-logo.png",
+      "Url": "https://www.epubit.com"
+    },
+    {
+      "Name": "图灵社区",
+      "Logo": "/img/books-sponsors/ituring-logo.png",
+      "Url": "https://www.ituring.com.cn"
+    },
+    {
+      "Name": "道然科技",
+      "Logo": "/img/books-sponsors/daoran-logo.png",
+      "Url": "#"
     }
   ],
   "Communities": [
     {
+      "Name": "广州 .NET 技术俱乐部",
+      "Logo": "/img/communities/guangzhou-logo.png",
+      "Url": "#",
+      "Width": 250
+    },
+    {
+      "Name": ".NET Core Community (NCC)",
+      "Logo": "/img/communities/ncc-logo.png",
+      "Url": "https://github.com/dotnetcore",
+      "Width": 250
+    },
+    {
       "Name": "Ant Design Blazor",
       "Logo": "/img/communities/ant-design-blazor-logo.png",
       "Url": "https://github.com/ant-design-blazor",
-      "Width": 200
+      "Width": 250
     },
     {
-      "Name": ".NET Foundation",
-      "Logo": "/img/sponsors/dotnetfoundation_v4.png",
-      "Url": "https://dotnetfoundation.org/",
-      "Width": 100
+      "Name": ".NET知音",
+      "Logo": "/img/communities/zhiyin-logo.png",
+      "Url": "#",
+      "Width": 250
+    },
+    {
+      "Name": "PowerPlatform 中文社区",
+      "Logo": "/img/communities/ppcug-logo.png",
+      "Url": "#",
+      "Width": 250
+    },
+    {
+      "Name": "盛派开发者社区",
+      "Logo": "/img/communities/shengpai-developer-logo.png",
+      "Url": "https://weixin.senparc.com/QA",
+      "Width": 250
+    },
+    {
+      "Name": "爱迪生说",
+      "Logo": "/img/communities/edsion-talk-logo.png",
+      "Url": "#",
+      "Width": 250
+    },
+    {
+      "Name": "JesseTalk",
+      "Logo": "/img/communities/jessetalk-logo.png",
+      "Url": "#",
+      "Width": 250
     }
   ],
   "Organizers": [
