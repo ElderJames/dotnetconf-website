@@ -81,10 +81,11 @@ footer {
     }
 
 .navbar {
-  padding: 1px 10px 5px 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 a.navbar-brand {
+  padding: 0;
   white-space: normal;
   text-align: center;
   word-break: break-all;
@@ -299,10 +300,11 @@ button {
   border: none;
 }
 
+
 /* sponsors styles
  ------------------------------------------------*/
 
-.sponsors-title {
-    color: #666;
-    line-height: 60px;
+ .sponsors-title {
+  color: #666;
+  line-height: 60px;
 }
