@@ -16,6 +16,8 @@ namespace DotNetConf.Web
         public Schedule[] Schedule { get; set; }
         public Sponsor[] Sponsors { get; set; }
         public Partner[] Partners { get; set; }
+        public VenueSupport[] VenueSupports { get; set; }
+        public BooksSponsor[] BooksSponsors { get; set; }
         public Community[] Communities { get; set; }
         public Organizer[] Organizers { get; set; }
         public Speaker[] Speakers { get; set; }
@@ -86,6 +88,22 @@ namespace DotNetConf.Web
     }
 
     public class Partner
+    {
+        public string Name { get; set; }
+        public string Logo { get; set; }
+        public string Url { get; set; }
+        public int Width { get; set; } = 200;
+    }
+
+    public class VenueSupport
+    {
+        public string Name { get; set; }
+        public string Logo { get; set; }
+        public string Url { get; set; }
+        public int Width { get; set; } = 200;
+    }
+
+    public class BooksSponsor
     {
         public string Name { get; set; }
         public string Logo { get; set; }
