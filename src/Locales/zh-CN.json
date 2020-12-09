@@ -228,6 +228,12 @@
       "Logo": "/img/communities/fireug.png",
       "Url": "#",
       "Width": 250
+    },
+    {
+      "Name": "space",
+      "Logo": "/img/communities/space.png",
+      "Url": "#",
+      "Width": 250
     }
   ],
   "Organizers": [
@@ -270,7 +276,7 @@
     {
       "Group": "OrganizingGroup",
       "Name": "陈作",
-      "Image": "/img/organizors/chenzuo.jpg",
+      "Image": "/img/organizors/chenzuo.png",
       "Description": "深圳市阿铺科技/CTO  / 大会会务统筹"
     },
     {
@@ -374,7 +380,7 @@
       ]
     },
     {
-      "Name": "朱永光/陈作",
+      "Name": "朱永光",
       "Image": "/img/speakers/profile/zhuyongguang.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "Microsoft\t高级技术顾问 ",
@@ -388,7 +394,21 @@
       ]
     },
     {
-      "Name": "刘腾飞/Jesse",
+      "Name": "陈作",
+      "Image": "/img/speakers/profile/chenzuo.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "Microsoft\t高级技术顾问 ",
+      "Introduction": [
+        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈\t\t"
+      ],
+      "Topic": "Dapr开启微服务应用开发新世界",
+      "Time": "",
+      "Description": [
+        "Dapr是微软发起、社区热度很高的开源项目，皆在提供一个平台中立的微服务应用开发框架。本分享将对Dapr进行基本介绍，并辅以简单示例来带领大家进入微服务开发的新世界。"
+      ]
+    },
+    {
+      "Name": "刘腾飞",
       "Image": "/img/speakers/profile/Jesse.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "上海程析智能 - 历任架构经理、CTO",
@@ -402,7 +422,7 @@
       ]
     },
     {
-      "Name": "冯辉 / HuiFeng",
+      "Name": "冯辉",
       "Image": "/img/speakers/profile/HuiFeng.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "开创云",
@@ -432,7 +452,7 @@
     },
     {
       "Name": "Anduin Xue",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/AnduinXue.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "Microsoft FTE, .NET  developer, hacker, blogger, Starcraft II player ",
       "Introduction": [
@@ -459,7 +479,7 @@
       ]
     },
     {
-      "Name": "贾维维/ Jiaweiwei",
+      "Name": "贾维维",
       "Image": "/img/speakers/profile/Jiaweiwei.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "汽车之家/autohome 搜索架构师",
@@ -538,8 +558,23 @@
       ]
     },
     {
-      "Name": "潘淳/Pan Chun， 林德熙/lindexi\t",
-      "Image": "/img/speakers/profile/",
+      "Name": "潘淳",
+      "Image": "/img/speakers/profile/panchun.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "微软技术俱乐部（苏州）执行主席",
+      "Introduction": [
+        "潘淳：微软技术俱乐部（苏州）执行主席，Office开发者联盟发起人，苏州市人工智能协会智慧金融专委会委员。",
+        "林德熙：微软应用开发方向的最具价值专家，dotnet  基金会成员。"
+      ],
+      "Topic": "后翼弃兵，现世代 .NET 大局观",
+      "Time": "",
+      "Description": [
+        "后翼弃兵布局后来居上，暗喻.NET框架在布局完成后，.NET 5  在现世代（趋于开放，突破WIN平台，大步迈向新格局），与代表传统JAVA的战斗才开始进行，在高水平的层次上进行对抗。面对国际纷争，国产化的UOS、龙芯、鲲鹏等软硬件的入局，.NET  5的大统一将迎来高光时刻。从标准与技术入局，结合场景与应用，深入.NET 5的框架、语言、性能、开源、版权以及编译器到运行构建发布。"
+      ]
+    },
+    {
+      "Name": "林德熙",
+      "Image": "/img/speakers/profile/lindexi.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软技术俱乐部（苏州）执行主席",
       "Introduction": [
@@ -568,7 +603,7 @@
     },
     {
       "Name": "赵铭哲",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/zhaomingzhe.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "山西米立信息技术有限公司CEO&CTO",
       "Introduction": [
@@ -586,7 +621,7 @@
       "DifficultyLevel": "Intermediate",
       "JobTitle": "递易智能科技有限公司",
       "Introduction": [
-        "Diyi- 多年.Net 开发经验，开源爱好者，HttpReports APM 项目作者，同时也是 NCC 组织成员"
+        "Diyi- 多年.Net 开发经验，开源爱好者，HttpReports APM 项目作者，NCC PMC 成员"
       ],
       "Topic": "HttpReports APM 在微服务的应用",
       "Time": "",
@@ -719,7 +754,7 @@
     },
     {
       "Name": "乔鹏程",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/qiaopengcheng.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "龙芯中科 高级软件工程师",
       "Introduction": [
@@ -747,7 +782,7 @@
     },
     {
       "Name": "黄国石",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/huangguoshi.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "递易智能科技 - 资深架构师",
       "Introduction": [
@@ -808,7 +843,7 @@
     },
     {
       "Name": "彭伟",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/pengwei.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "途虎 tuhu - 资深 .NET 开发",
       "Introduction": [
@@ -821,7 +856,7 @@
       ]
     },
     {
-      "Name": "王健/Ken Wang",
+      "Name": "王健",
       "Image": "/img/speakers/profile/wangjian.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "ThoughtWorks高级咨询师",
@@ -865,7 +900,7 @@
       ]
     },
     {
-      "Name": "徐杨/Eleven",
+      "Name": "徐杨",
       "Image": "/img/speakers/profile/elven.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软MVP，武汉dotNET俱乐部发起人之一，武汉朝夕教育科技有限公司创始人",

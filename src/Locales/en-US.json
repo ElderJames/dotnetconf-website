@@ -223,6 +223,18 @@
       "Logo": "/img/communities/jessetalk-logo.png",
       "Url": "#",
       "Width": 250
+    },
+    {
+      "Name": "fireug",
+      "Logo": "/img/communities/fireug.png",
+      "Url": "#",
+      "Width": 250
+    },
+    {
+      "Name": "space",
+      "Logo": "/img/communities/space.png",
+      "Url": "#",
+      "Width": 250
     }
   ],
   "Organizers": [
