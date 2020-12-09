@@ -573,6 +573,304 @@
       "Description": [
         "议在电子商务线上购物场景中，从后台到接口再到前端，如何使用NCF框架及XncfModule来解决后台如何配置自定义活动产品，如何上传产品图片，如何通过富文本编辑器来编辑产品文案，在富文本编辑器中上传图片资源，如何在富文本编辑器中上传媒体资源，如何上传产品封面图，如何开放静态资源的访问权限给到前端使用，如何解决文件跨域的问题，如何输出WebApi的接口给到前端页面调用，如何输出WebApi的注释文档给前端开发查看，以及前端如何调用后展示等内容。"
       ]
+    },
+    {
+      "Name": "李帅",
+      "Image": "/img/speakers/profile/lishuai.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "递易智能科技有限公司",
+      "Introduction": [
+        "Diyi- 多年.Net 开发经验，开源爱好者，HttpReports APM 项目作者，同时也是 NCC 组织成员"
+      ],
+      "Topic": "HttpReports APM 在微服务的应用",
+      "Time": "",
+      "Description": [
+        "随着微服务架构的流行，往往一次请求会设计到多个微服务，因此服务性能监控和排查就变得更复杂, 于是分布式系统的APM管理系统应运而生。",
+        "HttpReports是基于.Net Core 开发的APM监控系统，使用MIT开源协议，主要功能包括，统计, 分析, 可视化， 监控，追踪，拓扑图等，本次分享会介绍HttpReports 的架构设计，以及如何在.NET 项目中接入客户端和Dash board."
+      ]
+    },
+    {
+      "Name": "陆楠",
+      "Image": "/img/speakers/profile/lulan.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "Shinetech Inc. - 工程师",
+      "Introduction": [
+        "80后程序员，12年.NET开发经验,  目前就职于北京盛安德科技发展有限公司青岛分公司，喜欢研究各种程序架构, 沉迷DDD, Event Source, CQRS,  微服务。乐于分享，喜欢分享，擅长翻译国外优秀博客，曾担任微软 Insider Dev Tour 2019烟台站讲师。"
+      ],
+      "Topic": "基于ASP.NET Core的热插拔插件机制",
+      "Time": "",
+      "Description": [
+        "在.Net Framwork时代, 我们可以使用AppDomain来实现一个热插拔插件系统，在进入.NET Core时代之后，一直没有出现一套能够实现热插拔的插件系统，很多基于.NET Core的插件系统都不能实现热插拔的，他们的插件更新需要重启宿主来实现。本次主题是基于开源项目Mystique，讲解一下使用ASP.NET Core创建热插拔插件系统的一些要点"
+      ]
+    },
+    {
+      "Name": "杨守斌",
+      "Image": "/img/speakers/profile/yangshoubing.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "青岛萨纳斯智能科技 技术负责人 微软区域技术总监,MS RD",
+      "Introduction": [
+        "目前在青岛萨纳斯智能科技,主要从事技术管理和研发工作,历任多年的MS MVP, 主要方向为ASP.NET, 硬件工程, Iot, Azure 等,希望能和大家交流.NET相关技术"
+      ],
+      "Topic": ".NET 5中的高性能服务gRPC",
+      "Time": "",
+      "Description": [
+        "远程服务gRPC是一个众所周知的高性能的RPC框架，在全世界广泛应用于各个领域，包括系统通信和Apps等，自从微软利用.NET Core 实现该框架,并贡献给CNCF以后,其在.NET Core环境下也得到了广泛的重视和应用, 本讲座主要是讲述.NET 5环境下gRPC的新特性, 包括性能的提升,gRPC-Web, Blazor的支持等等,随后将DEMO这些新特性,并讨论今后在.NET 5 环境中的应用场景, 最后将讨论如何进行部署和优化,例如Http.sys,IIS, OpenTelmetry等环境."
+      ]
+    },
+    {
+      "Name": "汪恺",
+      "Image": "/img/speakers/profile/wangkai.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "同花顺 - B2C业务架构师",
+      "Introduction": [
+        ""
+      ],
+      "Topic": ".NET在投资领域的应用实践",
+      "Time": "",
+      "Description": [
+        "随着资讯的发达，人们的投资意识逐渐浓厚，传统的投资软件已经无法满足日益增长的各式各样的C端客户需求，对投资软件的要求也越来越高，对于一家老牌公司，强大的.NET的能在这个领域发挥怎样的潜在威力呢？"
+      ]
+    },
+    {
+      "Name": "杨舜杰",
+      "Image": "/img/speakers/profile/yangjames.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "上海程析智能 系统架构研发工程师",
+      "Introduction": [
+        "NET基金会项目 Ant Design Blazor 作者，微软MVP，开源爱好者。"
+      ],
+      "Topic": "Blazor 原生实现 Ant Design 前端组件库",
+      "Time": "",
+      "Description": [
+        "Ant Design Blazor 是一个用 Blazor 原生实现的前端组件库。启动8个月已在 Github 获得 2.6k  Star，300+Folk，50+贡献者参与。本次主题将分享我们开发 Ant Design Blazor 的过程，为何选择 Ant Design，与 Ant Design 其他 3个前端框架的实现有什么不同，与 .NET 的其他应用模型又有什么联系，以及介绍组件开发中遇到的 Blazor 常见问题。"
+      ]
+    },
+    {
+      "Name": "陈超超",
+      "Image": "/img/speakers/profile/chenchaochao.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "正泰集团架构师Ant Design Blazor项目贡献者",
+      "Introduction": [
+        "长期基于.Net技术栈进行架构与开发企业IT系统的工作，擅长Blzaor，WinForm，Unity3D等领域"
+      ],
+      "Topic": "Blazor助力企业后台开发实战",
+      "Time": "",
+      "Description": [
+        "对客户体验的日益重视带来了前端的兴起，但是目前在企业中后台应用开发领域采用传统方案变的越发复杂，重复劳动，人员冗余等问题，边际效应严重，而Blazor的特点很好的解决了这些问题，主要介绍在以下方面",
+        "1、复杂度降低：前端与后端使用相同的语言实现了一致的开发体验",
+        "2、成本减少：所有环节使用相同的框架，代码库直接复用减少工作量，无需前后端分别配备开发减少人员数量",
+        "3、简化资源调配：开发人员技能构成单一化，有助于资源调配、沟通协作",
+        "4、前端工程化：模块化、组件化、规范化、自动化",
+        "接着通过现场实战，演示企业中后台程序最常见的几个场景（Server、WASM两种模式均做演示）",
+        "1、大量查询条件的查询页面开发",
+        "2、添加与编辑功能中前后端共享Dto",
+        "3、VS中的OpenAPI服务（WASM专属）",
+        "4、前端直接使用EF操作数据库（Server专属）",
+        "5、前后端共享相同的安全策略"
+      ]
+    },
+    {
+      "Name": "李宇",
+      "Image": "/img/speakers/profile/liyu.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "ThoughtWorks咨询师",
+      "Introduction": [
+        "有多年C#/.NET开发经验，参与多个基于.NET/.NET  Core的国内外项目。目前专注微软Azure/.NET Core技术。"
+      ],
+      "Topic": "基于Azure Function构建无服务化应用",
+      "Time": "",
+      "Description": [
+        "介绍Azure Function和如何应用，在实践环节，会完成一个基于Azure Function集成Graph  API的serverless应用，用于聚合信息并发送到Microsoft To Do应用上。希望通过分享，让更多的人了解Azure  Function是什么，如何与日常工作结合起来使用。"
+      ]
+    },
+    {
+      "Name": "董彬",
+      "Image": "/img/speakers/profile/dongbing.jpg",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "某知名投资银行",
+      "Introduction": [
+        "任职于某知名投资银行的风控部门，负责桌面客户端开发。"
+      ],
+      "Topic": "解析C# 9及.NET 5新特性",
+      "Time": "",
+      "Description": [
+        ""
+      ]
+    },
+    {
+      "Name": "汪宇杰",
+      "Image": "/img/speakers/profile/wangyujie.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "Green Dot 高级软件工程师",
+      "Introduction": [
+        "微软全球最有价值专家，技术社区布道者。在ASP.NET和Azure云平台开发方面拥有丰富经验，已在GitHub上开源全部个人项目。"
+      ],
+      "Topic": "Azure让.NET如虎添翼",
+      "Time": "",
+      "Description": [
+        "全面介绍基于.NET 5.0开源博客系统Moonglade如何综合运用Azure的12种服务以实现覆盖全球用户、兼顾性能与安全和快速响应故障的目标，并有效提升普通用户和开发者的使用体验。"
+      ]
+    },
+    {
+      "Name": "乔鹏程",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "龙芯中科 高级软件工程师",
+      "Introduction": [
+        "负责.net-mips64的技术研发。"
+      ],
+      "Topic": "龙芯.NET 移植经验分享",
+      "Time": "",
+      "Description": [
+        "龙芯平台移植适配.NET 做了哪些主要工作；新架构的一些经验技巧建议，需要修改哪些模块、不同模块特点、移植的关键路线图；.NET对新架构的一些特别注意点；龙芯平台未来对.NET的一些技术路线规划：龙芯平台的持续深度优化，后端系统优化、JIT中间层的优化、SIMD的支持；龙芯对.NET 社区master提交新架构支持的初步计划；龙芯未来对.NET 社区贡献一些技术方案设计优化的规划：深度参与架构设计的优化完善方案，从coreclr虚拟机架构实现；到中间码语言标准规范；roslyn编译器的一些分析和建议。"
+      ]
+    },
+    {
+      "Name": "李卫涵",
+      "Image": "/img/speakers/profile/LiWeihan.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "iHerb - .NET 研发工程师",
+      "Introduction": [
+        "众蚁社区 .NET 高级研发工程师，负责单体项目到微服务开发架构，基础组件开发"
+      ],
+      "Topic": "xunit中依赖注入的使用",
+      "Time": "",
+      "Description": [
+        "一个项目的高质量少不了测试项目来保证，优秀的开源项目一定少不了测试项目，依赖注入已经几乎融入到了每一个现代化框架中，asp.net core 从一开始就集成了依赖注入，依赖注入在测试项目中也不能缺席使用 Xunit.DependenceInjection，优雅的在测试里使用依赖注入，更好用的流程控制，更方便的做 asp.net core 的集成测试"
+      ]
+    },
+    {
+      "Name": "黄国石",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "递易智能科技 - 资深架构师",
+      "Introduction": [
+        "15年的.NET开发经验，先后从事过电网、金融、传媒等领域，在物联网方向创业8年，在中通快递担任资深架构师负责大数据分析和物联网方向，目前在递易担任CTO，从事快递柜、送餐柜等物联网Saas平台建设，全面使用Redis消息队列！"
+      ],
+      "Topic": "Redis消息队列",
+      "Time": "",
+      "Description": [
+        "消息队列是分布式系统必不可少的中间件，而大部分消息队列产品（如RocketMQ/RabbitMQ/Kafka等）要求团队有比较强的技术实力才能用好，不适用于中小团队。而Redis实现的轻量级消息队列很简单，就是Redis常规操作，几乎不需要开发团队掌握额外的知识，就可以用得很好！"
+      ]
+    },
+    {
+      "Name": "黄立敬",
+      "Image": "/img/speakers/profile/huanglijing.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "人大数媒科技(北京)有限公司 技术总监",
+      "Introduction": [
+        "负责公司技术团队的搭建和公司各大互联网产品的架构设计和开发工作。一直默默关注C#开源社区，2010年玩过Mono，2013年采用Xamarin开发Android应用，从2019年起开始带来团队实践.NET Core项目，公司核心的产品已经迁移到.NET Core，今年以来带领团队完成国产化系统下的.NET Core项目改造。"
+      ],
+      "Topic": "国产化系统下的.NET Core实践",
+      "Time": "",
+      "Description": [
+        "国产化系统下的.NET  Core实践经验和心得",
+        "1、系统现状和要求，包括CPU、操作系统和中间件的要求，如何突破目前中间件对Java的特殊保护，到底是用java重写还是迁移.NET  Core，给出实用的迁移建议；",
+        "2、国产化各种准备工作，重点技术预研，特别是现有系统的各个类库对.NET  Core的支持情况，最终做出技术评估；",
+        "3、项目迁移工作，除了按照官方要求迁移之外，还需要考虑系统在各个平台的可移植情况，我们迁移过程中遇到的问题和解决办法；",
+        "4、项目测试，模拟各种国产CPU搭建测试环境，并对系统进行测试；",
+        "5、系统部署，部署过程中的问题和解决方案。"
+      ]
+    },
+    {
+      "Name": "仇华",
+      "Image": "/img/speakers/profile/chouhua.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "苏州三星高级研发工程师，SciSharp STACK 主要成员，Google TensorFlow Developer  Certificate",
+      "Introduction": [
+        "TensorFlow User Group苏州 主要组织者，园区高技能领军人才，从事工业机器视觉开发和深度学习11年。"
+      ],
+      "Topic": ".NET深度学习的工业视觉解决方案",
+      "Time": "",
+      "Description": [
+        "作为一名.NET开发者，同时也是多年的工业机器视觉从业者，在推进深度学习应用于工业现场的机器视觉项目的过程 中，我摸索尝试过各种解决方案，也深入地和现场使用人员交流，并对工业现场的视觉软硬件环境做了广泛的调研， 发现深度学习在工业应用场景和互联网领域应用存在一定的差异性。本次主要和大家分享交流下述内容：1）. 工业领 域机器视觉中应用部署深度学习的行业特点分析和技术痛点解剖，主要分为视觉硬件成像环境和图像特征、生产环境 负样本不足、如何集成到现有设备老旧的系统、模型现场部署和推理以及算法落地的配套工具开发；2）. 如何高效地 使用C#结合TensorFlow.NET开发深度学习的实际项目，.NET Core 和 .NET FrameWork 的双框架支持使用，无需 依赖TensorFlow Python库，纯.NET框架下的深度学习开发，充分发挥.NET的高效率和高性能的特点；3）. 配置部 署深度学习的GPU环境如何发挥.NET优势和便利性，无需复杂的cuda和cuDNN安装配置，直接DLL引用方式配置 GPU环境，搭建环境打包式的GPU Package软件包进行客户交付；4）. 关于开发基于.NET的交互式工业视觉深度学 习完整软件平台的经验和解决方案分享。"
+      ]
+    },
+    {
+      "Name": "衣明志",
+      "Image": "/img/speakers/profile/yizhiming.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "烟台易云网络科技有限公司创始人",
+      "Introduction": [
+        "曾连任9年的微软全球最有价值专家（MVP），发起并创办了胶东开发者部落和胶东.NET俱乐部。从.NET 1.0 Beta开始就是.NET的忠实粉丝，有近20年的开发经验。现主要热衷于将云计算、DevOps、微服务架构、跨平台开发等。在汽车、农业机械、保险、零售等商业领域的信息化智能化方面经验丰富。"
+      ],
+      "Topic": "高效率的开发.NET应用",
+      "Time": "",
+      "Description": [
+        "程序开发经常会是一种高强度的工作，作为一个.NET开发老兵和技术创业者，我们会谋求快乐、高效、低强度的开发过程，通过新的工具、类库、方法避免996式的开发工作。头发已渐稀疏的老衣带着他的私货跟你分享他的高效开发心得"
+      ]
+    },
+    {
+      "Name": "彭伟",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "途虎 tuhu - 资深 .NET 开发",
+      "Introduction": [
+        "有10年的 .NET 开发经验，负责公共服务和 .NET 基础组件开发"
+      ],
+      "Topic": "分布式配置中心在微服务架构中的应用",
+      "Time": "",
+      "Description": [
+        "介绍 Apollo 配置中心在微服务架构中如何管理配置中的敏感信息、同一应用如何在多环境多机房中使用不同配置以及如何在不重启应用的情况下如何更改配置"
+      ]
+    },
+    {
+      "Name": "王健/Ken Wang",
+      "Image": "/img/speakers/profile/wangjian.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "ThoughtWorks高级咨询师",
+      "Introduction": [
+        "参与并主导多个.NET Core项目的落地及上云实践，对容器化及无服务架构有深刻的理解"
+      ],
+      "Topic": "Blazor+WebAssembly开启Web开发新体验",
+      "Time": "",
+      "Description": [
+        "Blazor是基于.NET实现的交互式客户端Web UI框架，在JavaScript统治前端的时代，它的出现与WebAssembly的完美配合使得我们可以将服务端的流畅体验带回到浏览器，也使得构建.NET的SPA成为了可能,这样的组合使得我们既能享受C#语言的优雅和高效，又能省去JavaScript带来的烦恼，实在程序员的福音"
+      ]
+    },
+    {
+      "Name": "曾健",
+      "Image": "/img/speakers/profile/zengjian.png",
+      "DifficultyLevel": "",
+      "JobTitle": "西安葡萄城，高级产品经理",
+      "Introduction": [
+        "葡萄城 Wyn Enterprise 嵌入式商业智能软件的高级产品经理，拥有12年报表开发、大型数据库设计及其分析建模经验，主导多项大数据分析和可视化项目，服务的客户涵盖石油、电力、地产、医疗等各行业领域。"
+      ],
+      "Topic": "基于.NET Core的嵌入式大数据分析技术研究",
+      "Time": "",
+      "Description": [
+        "随着移动互联网的发展，数据发挥出的价值日益凸显，用户对于数据产品的需求越发旺盛，如何提升大数据计算性能、高并发下的网络吞吐能力、分布式架构下的消息队列管理，对于企业而言至关重要。本次分享将从嵌入式大数据分析技术出发，深入研究如何实现数据功能的开发和项目快速交付。"
+      ]
+    },
+    {
+      "Name": "唐敦峰",
+      "Image": "/img/speakers/profile/tangguofeng.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "明源云天际平台-建模平台 架构师",
+      "Introduction": [
+        "10年以上.Net开发经验，5年系统架构设计经验，目前专注于企业级低代码开发平台的设计，元数据驱动架构，可视建模、在线编码的方式快速构建高质量的企业级应用程序，让开发过程中仅通过简单地拖拽与配置完成，降低了开发者的门槛，让开发者只专注于核心业务逻辑的部分。"
+      ],
+      "Topic": "Entity Framework Core实践与分享",
+      "Time": "",
+      "Description": [
+        "1.EF Core简介  EF Core的发展历程、常用特性、原理剖析。",
+        "2.EF Core实践  分享在EF Core实践应用中踩过的坑、发现的问题以及解决方案。基于EF Core，在低代码开发过程中的应用场景。",
+        "3.EF Core高级特性分享  利用EF Core高级特性，实现多租户模式、软删除、数据审计、数据加密、并发控制器等。在领域驱动开发过程中的应用。"
+      ]
+    },
+    {
+      "Name": "徐杨/Eleven",
+      "Image": "/img/speakers/profile/elven.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "微软MVP，武汉dotNET俱乐部发起人之一，武汉朝夕教育科技有限公司创始人",
+      "Introduction": [
+        "09年毕业于武汉大学，专注.NET领域十多年，微软MVP，武汉dotNET俱乐部发起人之一，武汉朝夕教育科技有限公司创始人。当下专注于.NET在线教育，连续多年腾讯课堂金牌讲师，5年下来在线直播超1500场，累计受众超过30w人次，相关视频点击播放近千万次，对推动国内.NET社区发展做出了微末贡献。"
+      ],
+      "Topic": ".NET5落地微服务架构",
+      "Time": "",
+      "Description": [
+        ""
+      ]
     }
   ]
 }
