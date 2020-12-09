@@ -394,6 +394,185 @@
       "Description": [
         "介绍低代码平台的一些主要场景，功能，以及底层架构思路。以及低代码平台在未来对开发者可能会产生的一些影响 。"
       ]
+    },
+    {
+      "Name": "冯辉 / HuiFeng",
+      "Image": "/img/speakers/profile/HuiFeng.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "开创云",
+      "Introduction": [
+        "开创云 / Ctrl\t目前就职于开创云，负责公司架构设计，微软MVP。擅长dotnet跨平台架构设计，有丰富的跨平台实战经验。对.NET平台情有独钟，乐于分享知识与经验，热爱开源。"
+      ],
+      "Topic": "JiNan\t“搭乐高式”ABP应用开发",
+      "Time": "Intermediate",
+      "Description": [
+        "以“乐高积木”带大家走进模块化设计，我们会了解到积木（模块）不同特性，以及如何在我们的项目中去使用这些积木，并且如何搭建出来一个APP。"
+      ]
+    },
+    {
+      "Name": "朱宗海",
+      "Image": "/img/speakers/profile/zhuzhonghai.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "上海蔚来汽车有限公司系统架构师",
+      "Introduction": [
+        "一名码龄20年的老码农，经历过的大大小小的系统&项目近百余，一直追随着技术最前沿者的脚步，不求闻达于世人，但求不落后于时代；步入不惑之年，偶尔闲暇之余回顾过往种种，思考人生和技术的本质，不禁感慨良多……"
+      ],
+      "Topic": "从汽车工厂总装PBS系统谈谈.Net的智能智造",
+      "Time": "",
+      "Description": [
+        "今天，制造业面临着数字化转型、升级，向着智能制造业迈进，这里有无数机遇和机会！我将向大家分享一个真实的案例，从一个汽车工厂总装PBS产线系统的开发到上线来谈谈 .Net 在这场制造业数字化转型，向着智能制造业迈进过程中所拥有的巨大优势，面临的挑战以及机遇，也希望能减轻大龄码农们的一些职业忧虑。",
+        "在向智能制造业的转型升级过程中，.Neter 们，你们不仅有广阔的前景，更有丰厚的钱景！"
+      ]
+    },
+    {
+      "Name": "Anduin Xue",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "Microsoft FTE, .NET  developer, hacker, blogger, Starcraft II player ",
+      "Introduction": [
+        "I am the founder of  Aiursoft. And I am one of the authors of Kahla. I love C#, TypeScript and  open source and I'm focusing on micro-services, DevOps, Web and PWA.\t"
+      ],
+      "Topic": "开发多端共享交互 .NET 应用开发",
+      "Time": "",
+      "Description": [
+        "如何保证多端的数据实时交互、共享，并维持时序的一致性和可用性？如何构建可以离线使用的增删改查应用？如何确保应用的数据可以尽快远程和其它设备同步，并节省流量和服务器性能？Anduin 将简单介绍如何在 .NET 中构建交互日志引擎，分享开发过程中的难点和痛点，并给出实际应用案例，以开发多端共享交互 .NET 应用开发。"
+      ]
+    },
+    {
+      "Name": "张潇",
+      "Image": "/img/speakers/profile/zhangxiao.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "DaoCloud 资深软件工程师",
+      "Introduction": [
+        "在DaoCloud 负责云原生 PaaS 平台的架构和核心研发工作，最近负责基于 Prometheus  的云原生监控平台的架构与研发工作。在此之前有丰富的 net 技术栈研发经验。热爱开源，业余时间给参与 kubernetes 代码贡献。与此同时，还是第一届  .NET Conf 的 speaker ;同时受邀在 CNCF举办的 2020 Kubecon China 发表关于Windows  Container主题分享。"
+      ],
+      "Topic": "云原生监控能给 . NET带来什么",
+      "Time": "",
+      "Description": [
+        "在云原生技术变得越来越流行的今天，. NET 5为云原生而生。越来越多 . NET 的应用被容器化，拥抱云原生。当我们  .NET  技术弄潮儿在应用上云的时候我们应该关注什么呢？应用上云之后时候如预期般丝滑运行,是否可以让devops人员解放双手，专注于业务呢？本主题讲围绕云原生中的可观测性来展开，通过一个生动形象的例子来讲述  NET core 在云原生可观测性方面的思考和演进路线"
+      ]
+    },
+    {
+      "Name": "贾维维/ Jiaweiwei",
+      "Image": "/img/speakers/profile/Jiaweiwei.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "汽车之家/autohome 搜索架构师",
+      "Introduction": [
+        "对.NET Core 高性能计算有一定研究\t"
+      ],
+      "Topic": ".Net 5与高性能计算",
+      "Time": "",
+      "Description": [
+        "主要介绍下，目前通过.net core如何实现高性能，主要包括simd（单指令多数据流），Compiler as  Service，IL  Emit等在高性能计算中的一些应用，以及目前通过这些技术构建 .NET 大数据生态做的一些框架和尝试，并就目前做出来的功能进行一些列的展示和对比，为生态赋能"
+      ]
+    },
+    {
+      "Name": "郝冠军",
+      "Image": "/img/speakers/profile/haoguanjun.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "微软最有价值专家",
+      "Introduction": [
+        "《ASP.NET本质论》作者"
+      ],
+      "Topic": "透析 ASP. NET Core 认证",
+      "Time": "",
+      "Description": [
+        "在 ASP. NET Core 中，认证部分变得更加强大，也更加灵活，透彻理解认证架构与实现，是用好认证的关键。",
+        "本次内容从一个开发实例入手，剖析认证相关问题，梳理认证涉及的相关技术，涉及基于JWT的认证，基于Cookie的认证，ASP.NET Identity等相关技术，理论联系实际，助你成为认证高手。"
+      ]
+    },
+    {
+      "Name": "李枫",
+      "Image": "/img/speakers/profile/lifeng.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "独立开发者 ",
+      "Introduction": [
+        "先后就职于摩托罗拉, 三星等IT公司, 现为独立开发者。在移动平台上积累了十年以上的研发经验, 近几年主要专注于云计算/边缘计算基础设施领域。是《灰帽黑客 第4版：正义黑客的道德规范、渗透测试、攻击方法和漏洞分析技术》（ISBN：9787302428671）和《恶意网络环境下的Linux防御之道 》（ISBN: 9787115544384）中文版的主要译者。",
+        "对技术创新具有浓厚的兴趣和实践能力，热心参与开源社区的各种活动。"
+      ],
+      "Topic": "ARM上的Akka.NET",
+      "Time": "",
+      "Description": [
+        "Akka.NET是流行的Akka（由Java/Scala编写）分布式Actor框架在.NET上的一个专业级移植, 本提案包含下列子话题：",
+        "1)Akka.NET项目的架构与设计综述；",
+        "2)在开源硬件平台树莓派",
+        "3（ARM64）上构建和运行Akka.NET(使用.Net5)；",
+        "4)在树莓派集群上实践Akka.NET集群。"
+      ]
+    },
+    {
+      "Name": "苏震巍",
+      "Image": "/img/speakers/profile/suzhengwei.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "苏州盛派网络科技有限公司创始人",
+      "Introduction": [
+        "微软RD、微软MVP、微软技术俱乐部主席，《微信开发深度解析》《网站模块化开发全程实录》作者、Senparc.Weixin SDK / NCF 作者。\t\t"
+      ],
+      "Topic": " .NET Core/5 + EF Core + NCF 多数据库迁移及切换解决方案",
+      "Time": "",
+      "Description": [
+        "我们在开发可重用的业务模块、平台应用的时候，经常会遇到多数据库支持和迁移（Migration）的需求，在本课程中您将学习到：,",
+        "1）借助盛派全新的开源框架NCF（NeuCharFramework），在高度模块化的设计下，让系统业务和数据库选型解耦，实现一次开发业务代码，就能灵活支持多数据库（SQL Server/MySQL/Oracle，等等），并且可以在不同数据库间“一键迁移”；",
+        "2）利用多数据库支持特性，实现开发环境、测试环境、生产环境、数据库备份等多环节的数据库灵活切换；",
+        "3剖析多数据库架构的核心设计思想。"
+      ]
+    },
+    {
+      "Name": "黄海鹏",
+      "Image": "/img/speakers/profile/huanghaipeng.png",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "苏州易泰勒电子 - 软件研发总监",
+      "Introduction": [
+        "从事物联网行业开发十余年，是电子货架标签（ESL）系统的主要开发者，亦是.NET技术栈的忠实拥护者。"
+      ],
+      "Topic": "C#树莓派编程入门",
+      "Time": "",
+      "Description": [
+        "开发人员可以使用C#+树莓派进行很多有趣的开发，诸如涉及GPIO口的编程，低成本物联网项目的数据网关结点，以及生活中各种智能设备（如NAS，可视门铃等）原型开发板。"
+      ]
+    },
+    {
+      "Name": "潘淳/Pan Chun， 林德熙/lindexi\t",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "微软技术俱乐部（苏州）执行主席",
+      "Introduction": [
+        "潘淳：微软技术俱乐部（苏州）执行主席，Office开发者联盟发起人，苏州市人工智能协会智慧金融专委会委员。",
+        "林德熙：微软应用开发方向的最具价值专家，dotnet  基金会成员。"
+      ],
+      "Topic": "后翼弃兵，现世代 .NET 大局观",
+      "Time": "",
+      "Description": [
+        "后翼弃兵布局后来居上，暗喻.NET框架在布局完成后，.NET 5  在现世代（趋于开放，突破WIN平台，大步迈向新格局），与代表传统JAVA的战斗才开始进行，在高水平的层次上进行对抗。面对国际纷争，国产化的UOS、龙芯、鲲鹏等软硬件的入局，.NET  5的大统一将迎来高光时刻。从标准与技术入局，结合场景与应用，深入.NET 5的框架、语言、性能、开源、版权以及编译器到运行构建发布。"
+      ]
+    },
+    {
+      "Name": "桂素伟",
+      "Image": "/img/speakers/profile/guisuwei.png",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "株式会社ネットスターズ/NetStars\t - 系统架构",
+      "Introduction": [
+        "多届微软MVP，喜欢分布式技术，微服务，迷恋在GitHub上彻墙，热衷技术社区分享，忠实的.net  core布道者，从事.net 开发、架构10余年，仍然奋斗在码码的第一线。"
+      ],
+      "Topic": "基于kubernetes复杂项目交付/Deliver complex projects on kubernetes",
+      "Time": "Intermediate",
+      "Description": [
+        "Kubernetes已经成为云原生分布式架构的标准，我们公司使用kubernetes也一段时间了，本次分享一个真实的，自已带队架构开发的，基于kubernetes环境的复杂项目的交付案例。本次演讲会从项目的业务特征，交付要求特点；源码管理的分支设计；基于kubenetes开发，测试，预生产，生产的环境交付流程等几个方面来分享我们的心路历程。"
+      ]
+    },
+    {
+      "Name": "赵铭哲",
+      "Image": "/img/speakers/profile/",
+      "DifficultyLevel": "Advanced",
+      "JobTitle": "山西米立信息技术有限公司CEO&CTO",
+      "Introduction": [
+        "2005-2013年主要从事制造业半自动化研发及事业群MES等系统开发，2014年-2017年初主要从事房产中介行业ERP的开发及底层核心开发，2017年至今自主创业，目前我们公司做过的项目涵盖了教育，医疗，电商，矿产资源，金融，社交，社会服务，健身，IoT，自动化等领域，此次想要跟大家分享的是NCF在电子商务线上购物场景中的应用\t"
+      ],
+      "Topic": "NCF在电子商务线上购物场景中的应用",
+      "Time": "",
+      "Description": [
+        "议在电子商务线上购物场景中，从后台到接口再到前端，如何使用NCF框架及XncfModule来解决后台如何配置自定义活动产品，如何上传产品图片，如何通过富文本编辑器来编辑产品文案，在富文本编辑器中上传图片资源，如何在富文本编辑器中上传媒体资源，如何上传产品封面图，如何开放静态资源的访问权限给到前端使用，如何解决文件跨域的问题，如何输出WebApi的接口给到前端页面调用，如何输出WebApi的注释文档给前端开发查看，以及前端如何调用后展示等内容。"
+      ]
     }
   ]
 }
