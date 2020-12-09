@@ -41,8 +41,8 @@
                 <div class="row speakerrow">
                     @foreach (var speaker in items)
                     {
-                        <div class="col-sm speakercolsm">
-                            <div class="speaker card-1">
+                        <div class="col-sm col-sm-4 speakercolsm">
+                            <div class="speaker card-@speaker.GetCardNum()">
                                 <div class="row">
                                     <div class="col-4">
                                         <img class="img-fluid rounded-circle" src="@speaker.Image" width="100">

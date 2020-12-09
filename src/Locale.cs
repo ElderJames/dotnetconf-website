@@ -137,5 +137,11 @@ namespace DotNetConf.Web
         public string Topic { get; set; }
         public string Time { get; set; }
         public string[] Description { get; set; }
+
+        public int GetCardNum()
+        {
+            var val=$"{Name}{JobTitle}{Image}".Length % 10;
+            return Math.Abs(val == 0 ? 1 : val);
+        }
     }
 }
