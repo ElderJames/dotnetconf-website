@@ -236,56 +236,65 @@ body {
 }
 
 .col-sm.speakercolsm {
-  padding: 0px 0px 10px 10px;
+    padding: 0px 0px 10px 10px;
 }
 
 .col.speakercol {
-  padding: 0px 15px 0px 0px;
+    padding: 0px 15px 0px 0px;
 }
 
 .card-1 {
-  background-image: url("../img/speakers/card-bg-01.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-01.svg");
+    background-size: cover;
+    border-radius: 15px 50px 30px;
 }
 
 .card-2 {
-  background-image: url("../img/speakers/card-bg-02.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-02.svg");
+    background-size: cover;
+    border-radius: 50px 15px 30px 50px;
 }
 
 .card-3 {
-  background-image: url("../img/speakers/card-bg-03.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-03.svg");
+    background-size: cover;
+    border-radius: 15px 30px 15px 50px;
 }
 
 .card-4 {
-  background-image: url("../img/speakers/card-bg-04.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-04.svg");
+    background-size: cover;
+    border-radius: 50px 15px 30px;
 }
 
 .card-5 {
-  background-image: url("../img/speakers/card-bg-05.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-05.svg");
+    background-size: cover;
+    border-radius: 15px 50px 30px;
 }
 
 .card-6 {
-  background-image: url("../img/speakers/card-bg-06.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-06.svg");
+    background-size: cover;
+    border-radius: 15px 50px 30px;
 }
 
 .card-7 {
-  background-image: url("../img/speakers/card-bg-07.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-07.svg");
+    background-size: cover;
+    border-radius: 15px 15px 30px 50px;
 }
 
 .card-8 {
-  background-image: url("../img/speakers/card-bg-08.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-08.svg");
+    background-size: cover;
+    border-radius: 50px 30px 15px;
 }
 
 .card-9 {
-  background-image: url("../img/speakers/card-bg-09.svg");
-  background-size: cover;
+    background-image: url("../img/speakers/card-bg-09.svg");
+    background-size: cover;
+    border-radius: 50px 15px 30px;
 }
 
 button {
