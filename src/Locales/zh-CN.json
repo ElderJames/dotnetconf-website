@@ -99,7 +99,8 @@
       "Logo": "/img/sponsors/mingyuanyun.png",
       "Url": "https://www.mingyuanyun.com/",
       "Width": 200,
-      "Introduction": "明源云集团控股有限公司（简称：明源云），是香港联交所主板上市公司，股票代码：0909.HK。总部位于中国深圳，是国内领先的地产生态链数字化服务商，秉承专业制胜、产品领先战略和让用户成功的经营理念，累计为全国超过6000家房地产企业提供智能商业解决方案和管理系统，99家地产百强房企与明源云携手，成功推进数字化实践。"
+      "Introduction":
+        "明源云集团控股有限公司（简称：明源云），是香港联交所主板上市公司，股票代码：0909.HK。总部位于中国深圳，是国内领先的地产生态链数字化服务商，秉承专业制胜、产品领先战略和让用户成功的经营理念，累计为全国超过6000家房地产企业提供智能商业解决方案和管理系统，99家地产百强房企与明源云携手，成功推进数字化实践。"
     },
     {
       "Name": "朝夕教育",
@@ -107,7 +108,8 @@
       "Logo": "/img/sponsors/zhaoxi.jpg",
       "Url": "http://www.zhaoxiedu.net/",
       "Width": 200,
-      "Introduction": "朝夕教育，专注于IT类在线教育，注重服务与口碑，解决升职与加薪难题。课程体系覆盖C#/.NET零基础就业、进阶高级开发、蜕变架构师全周期，以及上位机、AutoCAD、Java进阶等，致力于打造高品质在线教育，赋能IT人。升职加薪，只争朝夕，以梦为马，不负韶华！"
+      "Introduction":
+        "朝夕教育，专注于IT类在线教育，注重服务与口碑，解决升职与加薪难题。课程体系覆盖C#/.NET零基础就业、进阶高级开发、蜕变架构师全周期，以及上位机、AutoCAD、Java进阶等，致力于打造高品质在线教育，赋能IT人。升职加薪，只争朝夕，以梦为马，不负韶华！"
     },
     {
       "Name": "泰链智能",
@@ -115,7 +117,8 @@
       "Logo": "/img/sponsors/turbochain.png",
       "Url": "https://turbochain.cn/",
       "Width": 200,
-      "Introduction": "泰链智能TurboChain.AI，由\"山东大学普联软件人工智能与区块链联合实验室\"领创，专注于以人工智能、大数据、物联网、区块链等技术为基础，打造开放、开源的企业应用服务平台，为监管机构、审计机构、社会公众等提供公开、公正、透明、可信的互联网信息服务。借助于山东大学在密码学、高性能计算、人工智能、网络技术等方面的优势，依靠普联软件20多年在诸多特大型央企信息化建设以及与政府监管部门、金融机构、全球顶尖管理咨询公司合作经验的深厚积累，泰链智能采用自主可控技术研发的银行函证链、企业信用链、财务档案链、消息服务链、票据链、版权链等，有着广阔的落地应用场景。"
+      "Introduction":
+        "泰链智能TurboChain.AI，由\"山东大学普联软件人工智能与区块链联合实验室\"领创，专注于以人工智能、大数据、物联网、区块链等技术为基础，打造开放、开源的企业应用服务平台，为监管机构、审计机构、社会公众等提供公开、公正、透明、可信的互联网信息服务。借助于山东大学在密码学、高性能计算、人工智能、网络技术等方面的优势，依靠普联软件20多年在诸多特大型央企信息化建设以及与政府监管部门、金融机构、全球顶尖管理咨询公司合作经验的深厚积累，泰链智能采用自主可控技术研发的银行函证链、企业信用链、财务档案链、消息服务链、票据链、版权链等，有着广阔的落地应用场景。"
     }
   ],
   "Partners": [
@@ -230,9 +233,9 @@
       "Width": 250
     },
     {
-      "Name": "space",
-      "Logo": "/img/communities/space.png",
-      "Url": "#",
+      "Name": "朝夕教育",
+      "Logo": "/img/communities/zhaoxi-logo.png",
+      "Url": "http://www.zhaoxiedu.net/",
       "Width": 250
     }
   ],
@@ -270,7 +273,7 @@
     {
       "Group": "ProductGroup",
       "Name": "朱永光",
-      "Image": "",
+      "Image": "/img/organizors/zhuyongguang.png",
       "Description": "微软 高级技术顾问"
     },
     {
@@ -327,11 +330,13 @@
       ],
       "Topic": ".NET in Deep Learning",
       "Time": "待定",
-      "Description": [ "讲述 ML.NET 和 TensorFlow.NET 的深度学习故事，ML.NET 是微软在 dotnet core 下的原生机器学习解决方案，发展快两年，在整合开发工具和算例有了快速进展，而TensorFlow.NET 是一个基于C#/F# 的深度学习解决方案，两者的融合让.NET 生态有了一个从训练到应用的全平台机器学习方案。本课程通过通俗易懂的方式和.NETer介绍ML.NET 和TensorFlow.NET  从安装到开发，训练，再到实现的一站式体验。" ]
+      "Description": [
+        "讲述 ML.NET 和 TensorFlow.NET 的深度学习故事，ML.NET 是微软在 dotnet core 下的原生机器学习解决方案，发展快两年，在整合开发工具和算例有了快速进展，而TensorFlow.NET 是一个基于C#/F# 的深度学习解决方案，两者的融合让.NET 生态有了一个从训练到应用的全平台机器学习方案。本课程通过通俗易懂的方式和.NETer介绍ML.NET 和TensorFlow.NET  从安装到开发，训练，再到实现的一站式体验。"
+      ]
     },
     {
       "Name": "周国庆",
-      "Image": "/img/speakers/profile/zhouguoqing.png",
+      "Image": "/img/speakers/profile/zhouguoqing.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "特来电云平台技术负责人",
       "Introduction": [
@@ -348,7 +353,7 @@
     },
     {
       "Name": "肖伟宇",
-      "Image": "/img/speakers/profile/xiaoweiyu.png",
+      "Image": "/img/speakers/profile/xiaoweiyu.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": ".NET Conf China 2019 主会场讲师 / Fire User Group 常驻讲师",
       "Introduction": [
@@ -364,7 +369,7 @@
     },
     {
       "Name": "刘桂海",
-      "Image": "/img/speakers/profile/liuguihai.png",
+      "Image": "/img/speakers/profile/liuguihai.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "特来电技术架构师",
       "Introduction": [
@@ -381,25 +386,25 @@
     },
     {
       "Name": "朱永光",
-      "Image": "/img/speakers/profile/zhuyongguang.png",
+      "Image": "/img/speakers/profile/zhuyongguang.jpg",
       "DifficultyLevel": "Advanced",
-      "JobTitle": "Microsoft\t高级技术顾问 ",
+      "JobTitle": "Microsoft 高级技术顾问 ",
       "Introduction": [
-        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈\t\t"
+        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈"
       ],
       "Topic": "Dapr开启微服务应用开发新世界",
       "Time": "",
       "Description": [
-        "Dapr是微软发起、社区热度很高的开源项目，皆在提供一个平台中立的微服务应用开发框架。本分享将对Dapr进行基本介绍，并辅以简单示例来带领大家进入微服务开发的新世界。"
+        ""
       ]
     },
     {
       "Name": "陈作",
-      "Image": "/img/speakers/profile/chenzuo.png",
-      "DifficultyLevel": "Advanced",
-      "JobTitle": "Microsoft\t高级技术顾问 ",
+      "Image": "/img/speakers/profile/chenzuo.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "深圳阿铺科技CTO，架构师 ",
       "Introduction": [
-        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈\t\t"
+        "十余年研发、项目管理工作经验，目前工作重点方向是devops、微服务方面。"
       ],
       "Topic": "Dapr开启微服务应用开发新世界",
       "Time": "",
@@ -409,9 +414,9 @@
     },
     {
       "Name": "刘腾飞",
-      "Image": "/img/speakers/profile/Jesse.png",
+      "Image": "/img/speakers/profile/Jesse.jpg",
       "DifficultyLevel": "Intermediate",
-      "JobTitle": "上海程析智能 - 历任架构经理、CTO",
+      "JobTitle": "上海程析智能科技 平台事业部部长",
       "Introduction": [
         "博客园推荐博主，infoQ社区编辑成员《ASP.NET Core核心模块》、《asp.net core微服务实战》、《.NET Core 微服务 on K8S》多个热门视频系列作者。jessetalk公众号作者，对.Net Core微服务，云原生应用有较多的应用与实践。最近一年在带领团队研发低代码开发平台。"
       ],
@@ -423,7 +428,7 @@
     },
     {
       "Name": "冯辉",
-      "Image": "/img/speakers/profile/HuiFeng.png",
+      "Image": "/img/speakers/profile/HuiFeng.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "开创云",
       "Introduction": [
@@ -437,7 +442,7 @@
     },
     {
       "Name": "朱宗海",
-      "Image": "/img/speakers/profile/zhuzhonghai.png",
+      "Image": "/img/speakers/profile/zhuzhonghai.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "上海蔚来汽车有限公司系统架构师",
       "Introduction": [
@@ -452,7 +457,7 @@
     },
     {
       "Name": "Anduin Xue",
-      "Image": "/img/speakers/profile/AnduinXue.png",
+      "Image": "/img/speakers/profile/AnduinXue.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "Microsoft FTE, .NET  developer, hacker, blogger, Starcraft II player ",
       "Introduction": [
@@ -466,7 +471,7 @@
     },
     {
       "Name": "张潇",
-      "Image": "/img/speakers/profile/zhangxiao.png",
+      "Image": "/img/speakers/profile/zhangxiao.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "DaoCloud 资深软件工程师",
       "Introduction": [
@@ -480,7 +485,7 @@
     },
     {
       "Name": "贾维维",
-      "Image": "/img/speakers/profile/Jiaweiwei.png",
+      "Image": "/img/speakers/profile/Jiaweiwei.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "汽车之家/autohome 搜索架构师",
       "Introduction": [
@@ -494,7 +499,7 @@
     },
     {
       "Name": "郝冠军",
-      "Image": "/img/speakers/profile/haoguanjun.png",
+      "Image": "/img/speakers/profile/haoguanjun.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "微软最有价值专家",
       "Introduction": [
@@ -503,13 +508,12 @@
       "Topic": "透析 ASP. NET Core 认证",
       "Time": "",
       "Description": [
-        "在 ASP. NET Core 中，认证部分变得更加强大，也更加灵活，透彻理解认证架构与实现，是用好认证的关键。",
-        "本次内容从一个开发实例入手，剖析认证相关问题，梳理认证涉及的相关技术，涉及基于JWT的认证，基于Cookie的认证，ASP.NET Identity等相关技术，理论联系实际，助你成为认证高手。"
+        "在 ASP. NET Core 中，认证部分变得更加强大，也更加灵活，透彻理解认证架构与实现，是用好认证的关键。本次内容从一个开发实例入手，剖析认证相关问题，梳理认证涉及的相关技术，涉及基于JWT的认证，基于Cookie的认证，ASP.NET Identity等相关技术，理论联系实际，助你成为认证高手。"
       ]
     },
     {
       "Name": "李枫",
-      "Image": "/img/speakers/profile/lifeng.png",
+      "Image": "/img/speakers/profile/lifeng.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "独立开发者 ",
       "Introduction": [
@@ -528,7 +532,7 @@
     },
     {
       "Name": "苏震巍",
-      "Image": "/img/speakers/profile/suzhengwei.png",
+      "Image": "/img/speakers/profile/suzhengwei.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "苏州盛派网络科技有限公司创始人",
       "Introduction": [
@@ -545,7 +549,7 @@
     },
     {
       "Name": "黄海鹏",
-      "Image": "/img/speakers/profile/huanghaipeng.png",
+      "Image": "/img/speakers/profile/huanghaipeng.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "苏州易泰勒电子 - 软件研发总监",
       "Introduction": [
@@ -559,7 +563,7 @@
     },
     {
       "Name": "潘淳",
-      "Image": "/img/speakers/profile/panchun.png",
+      "Image": "/img/speakers/profile/panchun.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软技术俱乐部（苏州）执行主席",
       "Introduction": [
@@ -574,7 +578,7 @@
     },
     {
       "Name": "林德熙",
-      "Image": "/img/speakers/profile/lindexi.png",
+      "Image": "/img/speakers/profile/dotnet.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软技术俱乐部（苏州）执行主席",
       "Introduction": [
@@ -589,9 +593,9 @@
     },
     {
       "Name": "桂素伟",
-      "Image": "/img/speakers/profile/guisuwei.png",
+      "Image": "/img/speakers/profile/guisuwei.jpg",
       "DifficultyLevel": "Advanced",
-      "JobTitle": "株式会社ネットスターズ/NetStars\t - 系统架构",
+      "JobTitle": "株式会社ネットスターズ/NetStars - 系统架构",
       "Introduction": [
         "多届微软MVP，喜欢分布式技术，微服务，迷恋在GitHub上彻墙，热衷技术社区分享，忠实的.net  core布道者，从事.net 开发、架构10余年，仍然奋斗在码码的第一线。"
       ],
@@ -603,7 +607,7 @@
     },
     {
       "Name": "赵铭哲",
-      "Image": "/img/speakers/profile/zhaomingzhe.png",
+      "Image": "/img/speakers/profile/zhaomingzhe.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "山西米立信息技术有限公司CEO&CTO",
       "Introduction": [
@@ -617,7 +621,7 @@
     },
     {
       "Name": "李帅",
-      "Image": "/img/speakers/profile/lishuai.png",
+      "Image": "/img/speakers/profile/lishuai.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "递易智能科技有限公司",
       "Introduction": [
@@ -632,7 +636,7 @@
     },
     {
       "Name": "陆楠",
-      "Image": "/img/speakers/profile/lulan.png",
+      "Image": "/img/speakers/profile/lulan.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "Shinetech Inc. - 工程师",
       "Introduction": [
@@ -660,7 +664,7 @@
     },
     {
       "Name": "汪恺",
-      "Image": "/img/speakers/profile/wangkai.png",
+      "Image": "/img/speakers/profile/wangkai.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "同花顺 - B2C业务架构师",
       "Introduction": [
@@ -674,7 +678,7 @@
     },
     {
       "Name": "杨舜杰",
-      "Image": "/img/speakers/profile/yangjames.png",
+      "Image": "/img/speakers/profile/yangjames.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "上海程析智能 系统架构研发工程师",
       "Introduction": [
@@ -688,7 +692,7 @@
     },
     {
       "Name": "陈超超",
-      "Image": "/img/speakers/profile/chenchaochao.png",
+      "Image": "/img/speakers/profile/chenchaochao.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "正泰集团架构师Ant Design Blazor项目贡献者",
       "Introduction": [
@@ -753,22 +757,8 @@
       ]
     },
     {
-      "Name": "乔鹏程",
-      "Image": "/img/speakers/profile/qiaopengcheng.png",
-      "DifficultyLevel": "Advanced",
-      "JobTitle": "龙芯中科 高级软件工程师",
-      "Introduction": [
-        "负责.net-mips64的技术研发。"
-      ],
-      "Topic": "龙芯.NET 移植经验分享",
-      "Time": "",
-      "Description": [
-        "龙芯平台移植适配.NET 做了哪些主要工作；新架构的一些经验技巧建议，需要修改哪些模块、不同模块特点、移植的关键路线图；.NET对新架构的一些特别注意点；龙芯平台未来对.NET的一些技术路线规划：龙芯平台的持续深度优化，后端系统优化、JIT中间层的优化、SIMD的支持；龙芯对.NET 社区master提交新架构支持的初步计划；龙芯未来对.NET 社区贡献一些技术方案设计优化的规划：深度参与架构设计的优化完善方案，从coreclr虚拟机架构实现；到中间码语言标准规范；roslyn编译器的一些分析和建议。"
-      ]
-    },
-    {
       "Name": "李卫涵",
-      "Image": "/img/speakers/profile/LiWeihan.png",
+      "Image": "/img/speakers/profile/LiWeihan.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "iHerb - .NET 研发工程师",
       "Introduction": [
@@ -782,7 +772,7 @@
     },
     {
       "Name": "黄国石",
-      "Image": "/img/speakers/profile/huangguoshi.png",
+      "Image": "/img/speakers/profile/huangguoshi.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "递易智能科技 - 资深架构师",
       "Introduction": [
@@ -796,7 +786,7 @@
     },
     {
       "Name": "黄立敬",
-      "Image": "/img/speakers/profile/huanglijing.png",
+      "Image": "/img/speakers/profile/huanglijing.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "人大数媒科技(北京)有限公司 技术总监",
       "Introduction": [
@@ -815,7 +805,7 @@
     },
     {
       "Name": "仇华",
-      "Image": "/img/speakers/profile/chouhua.png",
+      "Image": "/img/speakers/profile/chouhua.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "苏州三星高级研发工程师，SciSharp STACK 主要成员，Google TensorFlow Developer  Certificate",
       "Introduction": [
@@ -829,7 +819,7 @@
     },
     {
       "Name": "衣明志",
-      "Image": "/img/speakers/profile/yizhiming.png",
+      "Image": "/img/speakers/profile/yizhiming.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "烟台易云网络科技有限公司创始人",
       "Introduction": [
@@ -843,7 +833,7 @@
     },
     {
       "Name": "彭伟",
-      "Image": "/img/speakers/profile/pengwei.png",
+      "Image": "/img/speakers/profile/pengwei.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "途虎 tuhu - 资深 .NET 开发",
       "Introduction": [
@@ -857,7 +847,7 @@
     },
     {
       "Name": "王健",
-      "Image": "/img/speakers/profile/wangjian.png",
+      "Image": "/img/speakers/profile/wangjian.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "ThoughtWorks高级咨询师",
       "Introduction": [
@@ -871,7 +861,7 @@
     },
     {
       "Name": "曾健",
-      "Image": "/img/speakers/profile/zengjian.png",
+      "Image": "/img/speakers/profile/zengjian.jpg",
       "DifficultyLevel": "",
       "JobTitle": "西安葡萄城，高级产品经理",
       "Introduction": [
@@ -885,7 +875,7 @@
     },
     {
       "Name": "唐敦峰",
-      "Image": "/img/speakers/profile/tangguofeng.png",
+      "Image": "/img/speakers/profile/tangguofeng.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "明源云天际平台-建模平台 架构师",
       "Introduction": [
@@ -901,13 +891,65 @@
     },
     {
       "Name": "徐杨",
-      "Image": "/img/speakers/profile/elven.png",
+      "Image": "/img/speakers/profile/elven.jpg",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软MVP，武汉dotNET俱乐部发起人之一，武汉朝夕教育科技有限公司创始人",
       "Introduction": [
         "09年毕业于武汉大学，专注.NET领域十多年，微软MVP，武汉dotNET俱乐部发起人之一，武汉朝夕教育科技有限公司创始人。当下专注于.NET在线教育，连续多年腾讯课堂金牌讲师，5年下来在线直播超1500场，累计受众超过30w人次，相关视频点击播放近千万次，对推动国内.NET社区发展做出了微末贡献。"
       ],
       "Topic": ".NET5落地微服务架构",
+      "Time": "",
+      "Description": [
+        ""
+      ]
+    },
+    {
+      "Name": "Justin Yoo",
+      "Image": "/img/speakers/profile/justin_yoo.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "Senior Cloud Advocate at Microsoft",
+      "Introduction": [
+        "He used to be  a double-awarded Microsoft MVP for many years in both Developer Technology  and Azure. He likes serverless, enterprise service integration and messaging."
+      ],
+      "Topic": "What to Know When Migrating from Legacy WebForm to Blazor",
+      "Time": "",
+      "Description": [
+        "因为.NET5 has been released, 所以 many organisations are planning  to migrate their legacy ASP.NET WebForm apps to Blazor ones. Both are similar  to each other at the same time different from each other. 我打算 discuss what to  consider for migration."
+      ]
+    },
+    {
+      "Name": "骆姜斌",
+      "Image": "/img/speakers/profile/luojiangbin.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "智鹏瑞尔软件/SSW China - 高级软件架构师/高级咨询师",
+      "Introduction": [
+        "14年 .Net开发及架构设计经验， 资深技术团队领队。负责过大量重要项目，项目客户主要为政府及物流业。在IM，物流供应链等领域有着丰厚的经验积累。"
+      ],
+      "Topic": "介绍 ASP.NET Core 高级功能托管服务",
+      "Time": "",
+      "Description": [
+        "如何在.Net Core中执行后台任务；什么是后台任务；后台任务的使用场景, 解决什么问题；选项: IHostedService, BackgroundService, Worker Service, Hangfire； 什么是IHostedService, 如何使用, 优点, 缺点；什么是BackgroundService, 如何使用, 优点, 缺点；什么是Worker Service, 如何使用, 优点, 缺点； 什么是Hangfire, 优点, 缺点； 简单Demo讲解"
+      ]
+    },
+    {
+      "Name": "伏允昆",
+      "Image": "/img/speakers/profile/fuyunkun.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "苏州盛派网络科技有限公司 合伙人/技术总监",
+      "Introduction": [""],
+      "Topic": "",
+      "Time": "",
+      "Description": [
+        ""
+      ]
+    },
+    {
+      "Name": "徐福扬",
+      "Image": "/img/speakers/profile/xufuyang.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "苏州盛派网络科技有限公司 技术经理/",
+      "Introduction": [""],
+      "Topic": "",
       "Time": "",
       "Description": [
         ""
