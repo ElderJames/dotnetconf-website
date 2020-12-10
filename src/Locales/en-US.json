@@ -231,9 +231,9 @@
       "Width": 250
     },
     {
-      "Name": "space",
-      "Logo": "/img/communities/space.png",
-      "Url": "#",
+      "Name": "朝夕教育",
+      "Logo": "/img/communities/zhaoxi-logo.png",
+      "Url": "http://www.zhaoxiedu.net/",
       "Width": 250
     }
   ],
@@ -277,7 +277,7 @@
     {
       "Group": "OrganizingGroup",
       "Name": "陈作",
-      "Image": "/img/organizors/chenzuo.jpg",
+      "Image": "/img/organizors/chenzuo.png",
       "Description": "深圳市阿铺科技/CTO  / 大会会务统筹"
     },
     {
