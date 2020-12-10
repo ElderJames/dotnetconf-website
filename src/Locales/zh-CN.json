@@ -567,8 +567,7 @@
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软技术俱乐部（苏州）执行主席",
       "Introduction": [
-        "潘淳：微软技术俱乐部（苏州）执行主席，Office开发者联盟发起人，苏州市人工智能协会智慧金融专委会委员。",
-        "林德熙：微软应用开发方向的最具价值专家，dotnet  基金会成员。"
+        "Office开发者联盟发起人，苏州市人工智能协会智慧金融专委会委员。"
       ],
       "Topic": "后翼弃兵，现世代 .NET 大局观",
       "Time": "",
@@ -580,11 +579,8 @@
       "Name": "林德熙",
       "Image": "/img/speakers/profile/dotnet.jpg",
       "DifficultyLevel": "Advanced",
-      "JobTitle": "微软技术俱乐部（苏州）执行主席",
-      "Introduction": [
-        "潘淳：微软技术俱乐部（苏州）执行主席，Office开发者联盟发起人，苏州市人工智能协会智慧金融专委会委员。",
-        "林德熙：微软应用开发方向的最具价值专家，dotnet  基金会成员。"
-      ],
+      "JobTitle": "微软应用开发方向的最具价值专家",
+      "Introduction": [ ".NET 基金会成员" ],
       "Topic": "后翼弃兵，现世代 .NET 大局观",
       "Time": "",
       "Description": [
