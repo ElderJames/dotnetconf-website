@@ -264,7 +264,7 @@
     {
       "Group": "ProductGroup",
       "Name": "朱永光",
-      "Image": "",
+      "Image": "/img/organizors/zhuyongguang.png",
       "Description": "微软 高级技术顾问"
     },
     {
@@ -374,12 +374,26 @@
       ]
     },
     {
-      "Name": "朱永光/陈作",
+      "Name": "朱永光",
       "Image": "/img/speakers/profile/zhuyongguang.png",
       "DifficultyLevel": "Advanced",
-      "JobTitle": "Microsoft\t高级技术顾问 ",
+      "JobTitle": "Microsoft 高级技术顾问 ",
       "Introduction": [
-        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈\t\t"
+        "从业20年，在软件架构、研发管理方面有长期的经验，目前在工作中重点关注DevOps和云原生/微服务的落地。曾连任微软最有价值专家（MVP）11届，喜欢在社区中和大家交流技术，闲暇之余会在自己的技术博客和微信公众号上分享一些经验总结文章。作为讲师多次在微软技术会议（TechEd、TechSummit）上分享最新开发技术的心得体会。微信公众号：dotNET开发经验谈"
+      ],
+      "Topic": "Dapr开启微服务应用开发新世界",
+      "Time": "",
+      "Description": [
+        ""
+      ]
+    },
+    {
+      "Name": "陈作",
+      "Image": "/img/speakers/profile/chenzuo.jpg",
+      "DifficultyLevel": "Intermediate",
+      "JobTitle": "深圳阿铺科技CTO，架构师 ",
+      "Introduction": [
+        "十余年研发、项目管理工作经验，目前工作重点方向是devops、微服务方面。"
       ],
       "Topic": "Dapr开启微服务应用开发新世界",
       "Time": "",
@@ -432,7 +446,7 @@
     },
     {
       "Name": "Anduin Xue",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/AnduinXue.png",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "Microsoft FTE, .NET  developer, hacker, blogger, Starcraft II player ",
       "Introduction": [
@@ -483,8 +497,7 @@
       "Topic": "透析 ASP. NET Core 认证",
       "Time": "",
       "Description": [
-        "在 ASP. NET Core 中，认证部分变得更加强大，也更加灵活，透彻理解认证架构与实现，是用好认证的关键。",
-        "本次内容从一个开发实例入手，剖析认证相关问题，梳理认证涉及的相关技术，涉及基于JWT的认证，基于Cookie的认证，ASP.NET Identity等相关技术，理论联系实际，助你成为认证高手。"
+        "在 ASP. NET Core 中，认证部分变得更加强大，也更加灵活，透彻理解认证架构与实现，是用好认证的关键。本次内容从一个开发实例入手，剖析认证相关问题，梳理认证涉及的相关技术，涉及基于JWT的认证，基于Cookie的认证，ASP.NET Identity等相关技术，理论联系实际，助你成为认证高手。"
       ]
     },
     {
@@ -538,8 +551,8 @@
       ]
     },
     {
-      "Name": "潘淳/Pan Chun， 林德熙/lindexi\t",
-      "Image": "/img/speakers/profile/",
+      "Name": "潘淳，林德熙",
+      "Image": "/img/speakers/profile/panchun.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "微软技术俱乐部（苏州）执行主席",
       "Introduction": [
@@ -568,7 +581,7 @@
     },
     {
       "Name": "赵铭哲",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/zhaomingzhe.png",
       "DifficultyLevel": "Advanced",
       "JobTitle": "山西米立信息技术有限公司CEO&CTO",
       "Introduction": [
@@ -747,7 +760,7 @@
     },
     {
       "Name": "黄国石",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/huangguoshi.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "递易智能科技 - 资深架构师",
       "Introduction": [
@@ -808,7 +821,7 @@
     },
     {
       "Name": "彭伟",
-      "Image": "/img/speakers/profile/",
+      "Image": "/img/speakers/profile/pengwei.jpg",
       "DifficultyLevel": "Intermediate",
       "JobTitle": "途虎 tuhu - 资深 .NET 开发",
       "Introduction": [
