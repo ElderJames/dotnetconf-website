@@ -926,7 +926,7 @@
       "Topic": "介绍 ASP.NET Core 高级功能托管服务",
       "Time": "",
       "Description": [
-        "如何在.Net Core中执行后台任务；什么是后台任务；后台任务的使用场景, 解决什么问题；选项: IHostedService, BackgroundService, Worker Service, Hangfire； 什么是IHostedService, 如何使用, 优点, 缺点；什么是BackgroundService, 如何使用, 优点, 缺点；什么是Worker Service, 如何使用, 优点, 缺点； 什么是Hangfire, 优点, 缺点； 简单Demo讲解"
+        "在项目开发过程中,总是会遇到需要在后台运行任务的场景，很多解决方案可以解决这个问题，比如IHostedServices, BackgroundServices, Worker Services, Hangfire等等, 这让.NET开发人员无从选择。在这次分享中，我们将分析所有这些解决方案的优点和缺点，使用场景，以及深入探讨这些方案的工作原理。"
       ]
     },
     {
