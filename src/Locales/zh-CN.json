@@ -680,12 +680,12 @@
       "DifficultyLevel": "Intermediate",
       "JobTitle": "上海程析智能 系统架构研发工程师",
       "Introduction": [
-        "NET基金会项目 Ant Design Blazor 作者，微软MVP，开源爱好者。"
+        "Ant Design Blazor 作者，微软MVP"
       ],
       "Topic": "Blazor 原生实现 Ant Design 前端组件库",
       "Time": "",
       "Description": [
-        "Ant Design Blazor 是一个用 Blazor 原生实现的前端组件库。启动8个月已在 Github 获得 2.6k  Star，300+Folk，50+贡献者参与。本次主题将分享我们开发 Ant Design Blazor 的过程，为何选择 Ant Design，与 Ant Design 其他 3个前端框架的实现有什么不同，与 .NET 的其他应用模型又有什么联系，以及介绍组件开发中遇到的 Blazor 常见问题。"
+        "Ant Design Blazor 是一个用 Blazor 原生实现的前端组件库。启动8个月已在 Github 获得 2.6k  Star，300+ Fork，50+贡献者参与。本次主题将分享我们开发 Ant Design Blazor 的过程，为何选择 Ant Design，与 Ant Design 其他 3个前端框架的实现有什么不同，与 .NET 的其他应用模型又有什么联系，以及介绍组件开发中遇到的 Blazor 常见问题。"
       ]
     },
     {
@@ -720,7 +720,7 @@
       "Introduction": [
         "有多年C#/.NET开发经验，参与多个基于.NET/.NET  Core的国内外项目。目前专注微软Azure/.NET Core技术。"
       ],
-      "Topic": "基于Azure Function构建无服务化应用",
+      "Topic": "基于Azure Functions & .NET Core 快速构建 Serverless 应用",
       "Time": "",
       "Description": [
         "介绍Azure Function和如何应用，在实践环节，会完成一个基于Azure Function集成Graph  API的serverless应用，用于聚合信息并发送到Microsoft To Do应用上。希望通过分享，让更多的人了解Azure  Function是什么，如何与日常工作结合起来使用。"
